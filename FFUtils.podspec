@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 更多行的
 摘要
                        DESC
-
+  s.swift_version    = '4.2'
   s.homepage         = 'https://github.com/lingfengmarskey/FFUtils'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lingfengmarskey' => 'martinorth713@gmail.com' }
