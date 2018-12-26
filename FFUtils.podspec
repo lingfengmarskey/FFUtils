@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FFUtils'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '测试摘要'
   s.description      = <<-DESC
 更多行的
