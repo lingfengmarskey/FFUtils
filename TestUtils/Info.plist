@@ -2,6 +2,62 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string></string>
+			</array>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>fox</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Icon-29</string>
+					<string>Icon-40@2x</string>
+					<string>Icon-120</string>
+					<string>Icon-29@2x</string>
+					<string>Icon-29@3x</string>
+					<string>Icon-57</string>
+					<string>Icon-57@2x</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<true/>
+			</dict>
+			<key>girl</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>girl-icon1</string>
+					<string>girl-icon2</string>
+					<string>girl-icon3</string>
+					<string>girl-icon4</string>
+					<string>girl-icon5</string>
+					<string>girl-icon6</string>
+					<string>girl-icon7</string>
+				</array>
+				<key>UIPreenderedIcon</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>UINewsstandIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string></string>
+			</array>
+			<key>UINewsstandBindingType</key>
+			<string>UINewsstandBindingTypeMagazine</string>
+			<key>UINewsstandBindingEdge</key>
+			<string>UINewsstandBindingEdgeLeft</string>
+		</dict>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

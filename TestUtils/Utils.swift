@@ -74,4 +74,8 @@ class Utils {
         #endif
     }
 
+    
+    func test()   {
+    
+    }
 }
