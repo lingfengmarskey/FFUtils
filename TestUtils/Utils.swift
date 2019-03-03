@@ -16,6 +16,7 @@ class Utils {
     /// - Parameter icon: String Name
     static func updateRemoteIcon(icon:String) -> Void {
         guard !icon.isEmpty else {
+                        
             return
         }
         UserDefaults.standard.setValue(icon, forKey: "remoteIcon")
@@ -42,6 +43,18 @@ class Utils {
     }
     
     
+    // 重新获取图片尺寸
+    func resizeImage(image:UIImage, size:CGSize) -> UIImage? {
+        UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.main.scale)
+        image.draw(in: CGRect.init(origin: CGPoint.zero, size: size))
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return newImage
+    }
+    
+    
+    
+
     /// 动态更新图标 如果需要的话
     static func updateDynamicIconIfNeeded() -> Void {
         guard #available(iOS 10.3,*) else {
