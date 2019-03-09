@@ -42,17 +42,7 @@ class Utils {
         }
     }
     
-    
-    // 重新获取图片尺寸
-    func resizeImage(image:UIImage, size:CGSize) -> UIImage? {
-        UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.main.scale)
-        image.draw(in: CGRect.init(origin: CGPoint.zero, size: size))
-        let newImage = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        return newImage
-    }
-    
-    
+
     
 
     /// 动态更新图标 如果需要的话
@@ -87,8 +77,20 @@ class Utils {
         #endif
     }
 
+
+}
+
+extension Utils {
     
-    func test()   {
-    
+    // 重新获取图片尺寸
+    func resizeImage(image:UIImage, size:CGSize) -> UIImage? {
+        UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.main.scale)
+        image.draw(in: CGRect.init(origin: CGPoint.zero, size: size))
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return newImage
     }
 }
+
+
+
