@@ -90,6 +90,29 @@ extension Utils {
         UIGraphicsEndImageContext()
         return newImage
     }
+    
+    
+    func getIsMuted() -> Bool {
+        let route:String = ""
+//        let status =
+//          UInt32 routeSize = sizeof(CFStringRef);
+//
+//          OSStatus status = AudioSessionGetProperty(kAudioSessionProperty_AudioRoute, &routeSize, &route);
+//          if (status == kAudioSessionNoError)
+//              {
+//                    if (route == NULL || !CFStringGetLength(route))
+//                      return TRUE;
+//                  }
+//
+          return false;
+    }
+    
+    @available(iOS 10.0, *)
+    class func impactOcor()  {
+            let impactor  = UIImpactFeedbackGenerator.init(style: .light)
+            impactor.impactOccurred()
+    }
+    
 }
 
 
