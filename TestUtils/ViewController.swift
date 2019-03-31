@@ -24,28 +24,29 @@ class ViewController: UIViewController, SKProductsRequestDelegate {
         
         // for test
         
-        let productid = ""
-        let proIdSet = Set.init([productid])
-        let request = SKProductsRequest.init(productIdentifiers: proIdSet)
-        request.delegate  = self
-        request.start()
+//        let productid = ""
+//        let proIdSet = Set.init([productid])
+//        let request = SKProductsRequest.init(productIdentifiers: proIdSet)
+//        request.delegate  = self
+//        request.start()
+//
+//        let priceFormatter =  NumberFormatter.init()
+//        priceFormatter.formatterBehavior = .behavior10_4
+//        priceFormatter.numberStyle = .currency
+//
+//        let product = SKProduct.init()
+//
+//        priceFormatter.locale = product.priceLocale
         
-        let priceFormatter =  NumberFormatter.init()
-        priceFormatter.formatterBehavior = .behavior10_4
-        priceFormatter.numberStyle = .currency
-        
-        let product = SKProduct.init()
-        
-        priceFormatter.locale = product.priceLocale
-        
-        guard let formattedPrice = priceFormatter.string(from: product.price) else{return}
-        
-        print("formatedPrice--->\(formattedPrice)")
+//        guard let formattedPrice = priceFormatter.string(from: product.price) else{return}
+//
+//        print("formatedPrice--->\(formattedPrice)")
         
         //
-        let path = Bundle.main.resourcePath
-        print("--resourcePath:\(path)")
-        /*/Users/marskey/Library/Developer/CoreSimulator/Devices/514EEDB6-4A7F-454D-9576-26A3F9842947/data/Containers/Bundle/Application/0D374C3D-326C-4BA0-84B6-90CCDBB37432/TestUtils.app*/
+//        let path = Bundle.main.resourcePath
+//        print("--resourcePath:\(path)")
+        Utils.FFLog("hello world")
+
     }
     
     func addApayment(pro:SKProduct)  {

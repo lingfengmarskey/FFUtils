@@ -78,7 +78,7 @@ public class Utils {
     {
         #if DEBUG
         
-        print("\((file as NSString).lastPathComponent)[\(line)], \(method): \(message)")
+        print(">>>>>>>>   FFLOG:   \((file as NSString).lastPathComponent)[\(line)], \(method)   \n \(message)   <<<<<<<<")
         
         
         #endif
