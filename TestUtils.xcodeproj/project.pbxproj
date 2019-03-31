@@ -15,6 +15,7 @@
 		CC10D51921D22C490058C6DD /* TestUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC10D51821D22C490058C6DD /* TestUtilsTests.swift */; };
 		CC10D52421D22C490058C6DD /* TestUtilsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC10D52321D22C490058C6DD /* TestUtilsUITests.swift */; };
 		CC10D53221D22C880058C6DD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC10D53121D22C880058C6DD /* Utils.swift */; };
+		EF7B7140224F3AC7005844DC /* FFSpeecher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7B713F224F3AC6005844DC /* FFSpeecher.swift */; };
 		EF9FE3CC21ECD37800775B86 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9FE3C521ECD37800775B86 /* Icon-29.png */; };
 		EF9FE3CD21ECD37800775B86 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9FE3C621ECD37800775B86 /* Icon-40@2x.png */; };
 		EF9FE3CE21ECD37800775B86 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9FE3C721ECD37800775B86 /* Icon-120.png */; };
@@ -63,6 +64,7 @@
 		CC10D52321D22C490058C6DD /* TestUtilsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUtilsUITests.swift; sourceTree = "<group>"; };
 		CC10D52521D22C490058C6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC10D53121D22C880058C6DD /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		EF7B713F224F3AC6005844DC /* FFSpeecher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFSpeecher.swift; sourceTree = "<group>"; };
 		EF9FE3C521ECD37800775B86 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
 		EF9FE3C621ECD37800775B86 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
 		EF9FE3C721ECD37800775B86 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			children = (
 				CC10D50321D22C480058C6DD /* AppDelegate.swift */,
 				CC10D50521D22C480058C6DD /* ViewController.swift */,
+				EF7B713F224F3AC6005844DC /* FFSpeecher.swift */,
 				CC10D53121D22C880058C6DD /* Utils.swift */,
 				CC10D50721D22C480058C6DD /* Main.storyboard */,
 				EF9FE3D321ECD6C800775B86 /* girl-icon */,
@@ -333,6 +336,7 @@
 			files = (
 				CC10D50621D22C480058C6DD /* ViewController.swift in Sources */,
 				CC10D50421D22C480058C6DD /* AppDelegate.swift in Sources */,
+				EF7B7140224F3AC7005844DC /* FFSpeecher.swift in Sources */,
 				CC10D53221D22C880058C6DD /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

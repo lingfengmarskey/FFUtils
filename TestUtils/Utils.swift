@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class Utils {
+public class Utils {
     
     /// 更新远程图标
     ///  具体是指远程需要本地显示的图标代号
@@ -89,6 +89,22 @@ extension Utils {
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         return newImage
+    }
+    
+    /// 获取指定颜色的的图片
+    ///
+    /// - Parameters:
+    ///   - rect: rectagle
+    ///   - color: UIColor
+    /// - Returns: UIImage Objc
+    func getImage(_ rect:CGRect, from color:UIColor) -> UIImage?{
+        UIGraphicsBeginImageContext(rect.size)
+        let context = UIGraphicsGetCurrentContext()
+        context?.setFillColor(color.cgColor)
+        context?.fill(rect)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return image
     }
     
     

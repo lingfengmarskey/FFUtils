@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.author           = { 'lingfengmarskey' => 'martinorth713@gmail.com' }
   s.source           = { :git => 'https://github.com/lingfengmarskey/FFUtils.git', :tag => s.version }
   s.ios.deployment_target = '9.0'
-  s.source_files = 'TestUtils/Utils.swift'
+  s.source_files = ['TestUtils/Utils.swift','TestUtils/FFSpeecher.swift']
 end
