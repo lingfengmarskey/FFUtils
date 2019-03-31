@@ -14,7 +14,7 @@ public class Utils {
     /// 更新远程图标
     ///  具体是指远程需要本地显示的图标代号
     /// - Parameter icon: String Name
-    static func updateRemoteIcon(icon:String) -> Void {
+    public static func updateRemoteIcon(icon:String) -> Void {
         guard !icon.isEmpty else {
                         
             return
@@ -25,7 +25,7 @@ public class Utils {
     /// 更新本地icon存储
     ///
     /// - Parameter icon: iconName
-    static func updateLocalIcon(icon:String) -> Void {
+    public static func updateLocalIcon(icon:String) -> Void {
         guard #available(iOS 10.3,*) else {
             return
         }
@@ -46,7 +46,7 @@ public class Utils {
     
 
     /// 动态更新图标 如果需要的话
-    static func updateDynamicIconIfNeeded() -> Void {
+    public static func updateDynamicIconIfNeeded() -> Void {
         guard #available(iOS 10.3,*) else {
             return
         }
@@ -64,7 +64,14 @@ public class Utils {
         }
     }
     
-    static func FFLog<T>(_ message: T,
+    /// Log Method
+    ///
+    /// - Parameters:
+    ///   - message: Customized Message
+    ///   - file: fileName
+    ///   - method: methodName
+    ///   - line: code line Number
+    public static func FFLog<T>(_ message: T,
                          file: String = #file,
                          method: String = #function,
                          line: Int = #line)
@@ -83,7 +90,7 @@ public class Utils {
 extension Utils {
     
     // 重新获取图片尺寸
-    func resizeImage(image:UIImage, size:CGSize) -> UIImage? {
+    public func resizeImage(image:UIImage, size:CGSize) -> UIImage? {
         UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.main.scale)
         image.draw(in: CGRect.init(origin: CGPoint.zero, size: size))
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
@@ -97,7 +104,7 @@ extension Utils {
     ///   - rect: rectagle
     ///   - color: UIColor
     /// - Returns: UIImage Objc
-    func getImage(_ rect:CGRect, from color:UIColor) -> UIImage?{
+    public func getImage(_ rect:CGRect, from color:UIColor) -> UIImage?{
         UIGraphicsBeginImageContext(rect.size)
         let context = UIGraphicsGetCurrentContext()
         context?.setFillColor(color.cgColor)
@@ -124,7 +131,7 @@ extension Utils {
 //    }
     
     @available(iOS 10.0, *)
-    class func impactOcor()  {
+    public class func impactOcor()  {
             let impactor  = UIImpactFeedbackGenerator.init(style: .light)
             impactor.impactOccurred()
     }

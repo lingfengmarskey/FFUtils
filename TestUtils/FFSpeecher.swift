@@ -34,40 +34,40 @@ public  enum FFSpeechRate:String {
 
 public class FFSpeecher: NSObject {
     
-    static let reader = FFSpeecher.init()
+    public static let reader = FFSpeecher.init()
     
-    let rates:[FFSpeechRate] = [.low, .normal, .littleFast, .fast]
+    public let rates:[FFSpeechRate] = [.low, .normal, .littleFast, .fast]
     
-    var readingModify = false
+    public var readingModify = false
     
-    var curRate:FFSpeechRate = FFSpeechRate.normal {
+    public var curRate:FFSpeechRate = FFSpeechRate.normal {
         didSet{
             configRate(curRate)
         }
     }
     
-    var currentVoice = AVSpeechSynthesisVoice.init() {
+    public var currentVoice = AVSpeechSynthesisVoice.init() {
         didSet {
             configVoice(currentVoice)
         }
     }
  
     
-    var currentLocation:Int = 0
+    public var currentLocation:Int = 0
     
-    var isReading:Bool {
+    public var isReading:Bool {
         return speechSythesizer.isSpeaking
     }
     
-    var isPaused:Bool {
+    public var isPaused:Bool {
         return speechSythesizer.isPaused
     }
     
-    var voices:[AVSpeechSynthesisVoice] {
+    public var voices:[AVSpeechSynthesisVoice] {
         return AVSpeechSynthesisVoice.speechVoices()
     }
     
-    var willSpeakLocation:((Int)->Void)?
+    public var willSpeakLocation:((Int)->Void)?
     
     private var utterance:AVSpeechUtterance?
     private var speechSythesizer = AVSpeechSynthesizer.init()
@@ -82,6 +82,9 @@ public class FFSpeecher: NSObject {
     
     // MARK: Public Method
     
+    /// speak start
+    ///
+    /// - Parameter content: String
     public func speak(_ content:String) {
         
         initlizeContent(content)
@@ -89,14 +92,19 @@ public class FFSpeecher: NSObject {
         speechSythesizer.speak(utterance!)
     }
     
+    /// Pause immediately
     public func pause() -> Void {
+        if isReading == false {return}
         speechSythesizer.pauseSpeaking(at: .immediate)
     }
     
+    /// Continue if it's speaking
     public func continueSpeaking()  {
+        if isReading == false {return}
         speechSythesizer.continueSpeaking()
     }
     
+    /// Stop reading
     public func stop() {
         speechSythesizer.stopSpeaking(at: .immediate)
     }
