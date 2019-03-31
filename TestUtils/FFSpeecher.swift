@@ -138,14 +138,14 @@ public class FFSpeecher: NSObject {
 
 extension FFSpeecher :AVSpeechSynthesizerDelegate {
     
-    func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, willSpeakRangeOfSpeechString characterRange: NSRange, utterance: AVSpeechUtterance) {
+    private  func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, willSpeakRangeOfSpeechString characterRange: NSRange, utterance: AVSpeechUtterance) {
         
         currentLocation = characterRange.location
         self.willSpeakLocation?(characterRange.location)
         
     }
     
-    func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didCancel utterance: AVSpeechUtterance) {
+    private  func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didCancel utterance: AVSpeechUtterance) {
         if readingModify == false {return}
         resumRead()
     }
