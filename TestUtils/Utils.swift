@@ -85,6 +85,18 @@ public class Utils {
     }
 
 
+    
+    /// 验证合法URL String
+    ///
+    /// - Parameter urlstring: String validating
+    /// - Returns: isValidate
+    public static func validateUrl(_ urlstring:String) -> Bool {
+        guard let url = URL.init(string: urlstring) else{return false}
+        if url.host == nil { return false }
+        if url.scheme == nil { return false }
+        return true
+    }
+    
 }
 
 extension Utils {
