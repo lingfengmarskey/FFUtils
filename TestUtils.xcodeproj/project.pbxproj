@@ -30,6 +30,8 @@
 		EF9FE3ED21ECD71300775B86 /* girl-icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9FE3E621ECD71300775B86 /* girl-icon4.png */; };
 		EF9FE3EE21ECD71300775B86 /* girl-icon6.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9FE3E721ECD71300775B86 /* girl-icon6.png */; };
 		EF9FE3EF21ECD71300775B86 /* girl-icon7.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9FE3E821ECD71300775B86 /* girl-icon7.png */; };
+		EFD6264D2252F53700C47B4D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD6264C2252F53700C47B4D /* Constants.swift */; };
+		EFD62655225397DB00C47B4D /* FlippingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD62654225397DB00C47B4D /* FlippingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		EF9FE3E621ECD71300775B86 /* girl-icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "girl-icon4.png"; sourceTree = "<group>"; };
 		EF9FE3E721ECD71300775B86 /* girl-icon6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "girl-icon6.png"; sourceTree = "<group>"; };
 		EF9FE3E821ECD71300775B86 /* girl-icon7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "girl-icon7.png"; sourceTree = "<group>"; };
+		EFD6264C2252F53700C47B4D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EFD62654225397DB00C47B4D /* FlippingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlippingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 				CC10D50521D22C480058C6DD /* ViewController.swift */,
 				EF7B713F224F3AC6005844DC /* FFSpeecher.swift */,
 				CC10D53121D22C880058C6DD /* Utils.swift */,
+				EFD62654225397DB00C47B4D /* FlippingView.swift */,
+				EFD6264C2252F53700C47B4D /* Constants.swift */,
 				CC10D50721D22C480058C6DD /* Main.storyboard */,
 				EF9FE3D321ECD6C800775B86 /* girl-icon */,
 				EF9FE3C421ECD37800775B86 /* fox-icon */,
@@ -334,8 +340,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD6264D2252F53700C47B4D /* Constants.swift in Sources */,
 				CC10D50621D22C480058C6DD /* ViewController.swift in Sources */,
 				CC10D50421D22C480058C6DD /* AppDelegate.swift in Sources */,
+				EFD62655225397DB00C47B4D /* FlippingView.swift in Sources */,
 				EF7B7140224F3AC7005844DC /* FFSpeecher.swift in Sources */,
 				CC10D53221D22C880058C6DD /* Utils.swift in Sources */,
 			);

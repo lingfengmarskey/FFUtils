@@ -75,7 +75,7 @@ class ViewController: UIViewController, SKProductsRequestDelegate {
             return
         }
         UIApplication.shared.setAlternateIconName("fox") { (error) in
-            print("===error===\(error)")
+//            print("===error===\(error)")
         }
     }
     
@@ -88,7 +88,7 @@ class ViewController: UIViewController, SKProductsRequestDelegate {
             return
         }
         UIApplication.shared.setAlternateIconName("girl") { (error) in
-            print("===error===\(error)")
+//            print("===error===\(error)")
         }
     }
     

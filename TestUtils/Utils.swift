@@ -102,7 +102,7 @@ public class Utils {
 extension Utils {
     
     // 重新获取图片尺寸
-    public func resizeImage(image:UIImage, size:CGSize) -> UIImage? {
+    public static func resizeImage(image:UIImage, size:CGSize) -> UIImage? {
         UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.main.scale)
         image.draw(in: CGRect.init(origin: CGPoint.zero, size: size))
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
@@ -116,7 +116,7 @@ extension Utils {
     ///   - rect: rectagle
     ///   - color: UIColor
     /// - Returns: UIImage Objc
-    public func getImage(_ rect:CGRect, from color:UIColor) -> UIImage?{
+    public static func getImage(_ rect:CGRect, from color:UIColor) -> UIImage?{
         UIGraphicsBeginImageContext(rect.size)
         let context = UIGraphicsGetCurrentContext()
         context?.setFillColor(color.cgColor)
