@@ -1,0 +1,6 @@
+framework module FFUtils {
+  umbrella header "FFUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - FFUtils (0.2.0)
+
+DEPENDENCIES:
+  - FFUtils (from `../`)
+
+EXTERNAL SOURCES:
+  FFUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FFUtils: 92fdc54d8aca1066b07c9c3275050c1bcd55652a
+
+PODFILE CHECKSUM: e81fef83d45aa565859e79aff94ada39837f272a
+
+COCOAPODS: 1.8.4

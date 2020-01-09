@@ -1,0 +1,22 @@
+{
+  "name": "FFUtils",
+  "version": "0.2.0",
+  "summary": "Common tools in ios development",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Marcos Mang/FFUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Marcos Mang": "lingfengmarskey@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Marcos Mang/FFUtils.git",
+    "tag": "0.2.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "FFUtils/Classes/**/*"
+}
