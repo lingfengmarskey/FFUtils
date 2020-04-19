@@ -5,11 +5,21 @@
 [![License](https://img.shields.io/cocoapods/l/FFUtils.svg?style=flat)](https://cocoapods.org/pods/FFUtils)
 [![Platform](https://img.shields.io/cocoapods/p/FFUtils.svg?style=flat)](https://cocoapods.org/pods/FFUtils)
 
-## Example
+FFUtils is a code set to improve productivity.It is still accumulating slowly through continuous work and study.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Features
 
+- [x] Customized View
+    - [x] FlippingView 
+- [x] Extension
+- [x] Utils
+- [x] Services
+    - [x] Speech
+     
 ## Requirements
+
+- iOS 10 later.
+- Swift 5 or later.
 
 ## Installation
 
@@ -20,9 +30,6 @@ it, simply add the following line to your Podfile:
 pod 'FFUtils'
 ```
 
-## Author
-
-Marcos Mang, lingfengmarskey@gmail.com
 
 ## License
 
