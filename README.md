@@ -1,6 +1,6 @@
 # FFUtils
 
-[![CI Status](https://img.shields.io/travis/Marcos Mang/FFUtils.svg?style=flat)](https://travis-ci.org/Marcos Mang/FFUtils)
+[![CI Status](https://img.shields.io/travis/lingfengmarskey/FFUtils.svg?style=flat)](https://travis-ci.org/lingfengmarskey/FFUtils)
 [![Version](https://img.shields.io/cocoapods/v/FFUtils.svg?style=flat)](https://cocoapods.org/pods/FFUtils)
 [![License](https://img.shields.io/cocoapods/l/FFUtils.svg?style=flat)](https://cocoapods.org/pods/FFUtils)
 [![Platform](https://img.shields.io/cocoapods/p/FFUtils.svg?style=flat)](https://cocoapods.org/pods/FFUtils)
