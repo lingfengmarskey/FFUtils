@@ -36,8 +36,8 @@ final class NotificationMaker: NSObject {
 
         content.sound = .default
         content.threadIdentifier = "mark-alert"
-        content.summaryArgumentCount = 1
-        content.summaryArgument = ""
+//        content.summaryArgumentCount = 1
+//        content.summaryArgument = ""
         let req = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
         UNUserNotificationCenter.current().add(req) { error in
             if let error = error {

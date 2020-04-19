@@ -106,18 +106,3 @@ extension UIView {
         }
     }
 }
-
-extension UITextView {
-    var maxNum: Int? {
-        if let v = inputAccessoryView as? HTAccessoryView {
-            return v.maxNum
-        }
-        return nil
-    }
-
-    func set(context num: Int) {
-        if let v = inputAccessoryView as? HTAccessoryView {
-            v.setNum("\(num)")
-        }
-    }
-}

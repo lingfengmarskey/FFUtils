@@ -7,14 +7,7 @@
 //
 
 import Foundation
-import Toast_Swift
 import UIKit
-extension UIViewController {
-    func makeToast(_ msg: String?) {
-        view.makeToast(msg, duration: 3.0, position: .center)
-    }
-}
-
 extension UIAlertController {
     static func makeReconfirmAlert(title: String, confirm: String = "Confirm", confirmAction: (() -> Void)? = nil, cancel: String? = nil, cancelAction: (() -> Void)? = nil) -> UIAlertController {
         let alert = UIAlertController(title: title, message: nil, preferredStyle: .alert)
@@ -64,32 +57,28 @@ extension UIViewController {
         }
         print("no such child controller at idx")
     }
-
-    var cusTabBar: CusTabbarController? {
-        if let p = parent as? CusTabbarController {
-            return p
-        }
-        return nil
-    }
 }
 
 extension UIViewController {
     /// 获取当前显示的控制器 UIWindow (Visible)
-    public class func getCurrentController() -> UIViewController {
-        let keywindow = (UIApplication.shared.delegate as! AppDelegate).window?.rootViewController // UIApplication.shared.keyWindow
-        let rootVC = keywindow! // UIApplication.shared.keyWindow!.rootViewController!
-        return getVisibleViewControllerFrom(vc: rootVC)
+    public class func getCurrentController() -> UIViewController? {
+        if let keywindow = UIApplication.shared.keyWindow?.rootViewController {
+            return getVisibleViewControllerFrom(vc: keywindow)
+        }
+        return nil
     }
 
-    // 方法1
+   
     class func getVisibleViewControllerFrom(vc: UIViewController) -> UIViewController {
         if vc.isKind(of: UINavigationController.self) {
             return getVisibleViewControllerFrom(vc: (vc as! UINavigationController).visibleViewController!)
         } else if vc.isKind(of: UITabBarController.self) {
             return getVisibleViewControllerFrom(vc: (vc as! UITabBarController).selectedViewController!)
-        } else if vc.isKind(of: CusTabbarController.self) {
-            return getVisibleViewControllerFrom(vc: (vc as! CusTabbarController).currentController!)
-        } else {
+        }
+//        else if vc.isKind(of: CusTabbarController.self) {
+//            return getVisibleViewControllerFrom(vc: (vc as! CusTabbarController).currentController!)
+//        }
+        else {
             if vc.presentedViewController != nil {
                 return getVisibleViewControllerFrom(vc: vc.presentedViewController!)
             } else {
