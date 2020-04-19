@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
     enum NavigationBarItemPosition {
         case left
         case right
@@ -29,7 +29,7 @@ extension UIViewController {
     }
 }
 
-extension UITabBar {
+public extension UITabBar {
     func invisibleLine() {
         if #available(iOS 13, *) {
             let appearance = standardAppearance

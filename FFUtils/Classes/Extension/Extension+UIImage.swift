@@ -7,7 +7,7 @@
 //
 
 import UIKit
-extension UIImage {
+public extension UIImage {
     var noRendering: UIImage {
         withRenderingMode(.alwaysOriginal)
     }

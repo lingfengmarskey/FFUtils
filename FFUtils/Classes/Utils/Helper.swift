@@ -31,8 +31,8 @@ public func FFLog(_ message: String = "",
 
 /// Keyboard Assistant
 /// Get keyboard's rect on its windonw
-class KeyboardAssistant: NSObject {
-    static let `default` = KeyboardAssistant()
+public class KeyboardAssistant: NSObject {
+    public static let `default` = KeyboardAssistant()
     private var callBackRect: ((CGRect, Double) -> Void)?
     private override init() {
         super.init()

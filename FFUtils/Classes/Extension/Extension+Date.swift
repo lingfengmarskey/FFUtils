@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Date {
+public extension Date {
     static func currentTime() -> TimeInterval {
         Date().timeIntervalSince1970
     }

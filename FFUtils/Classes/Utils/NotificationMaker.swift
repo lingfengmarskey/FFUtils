@@ -9,8 +9,8 @@
 import Foundation
 import NotificationCenter
 
-final class NotificationMaker: NSObject {
-    static let `default` = NotificationMaker()
+public final class NotificationMaker: NSObject {
+    public static let `default` = NotificationMaker()
 
     private override init() {
         super.init()
@@ -61,14 +61,14 @@ final class NotificationMaker: NSObject {
 
 extension NotificationMaker: UNUserNotificationCenterDelegate {
     // foreceground will present noti banner
-    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+    public func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         completionHandler([.alert, .badge, .sound])
     }
 
     // tap notification banner
-    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+    public func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         print("-----")
     }
 
-    func userNotificationCenter(_ center: UNUserNotificationCenter, openSettingsFor notification: UNNotification?) {}
+    public func userNotificationCenter(_ center: UNUserNotificationCenter, openSettingsFor notification: UNNotification?) {}
 }

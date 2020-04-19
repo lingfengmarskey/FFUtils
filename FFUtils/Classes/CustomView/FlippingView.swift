@@ -8,55 +8,6 @@
 
 import Foundation
 import UIKit
-import AudioToolbox
-
-/// system Sound related
-enum SoundVolum:Int{
-    case silence = 1
-    case low = 2
-    case normal = 3
-    case high = 4
-}
-
- func colorRGBA(r:CGFloat, g:CGFloat, b:CGFloat, a:CGFloat) ->UIColor {
-    return UIColor (red: r/255.0, green: g/255.0, blue: b/255.0, alpha: a)
-}
-
-class SoundManager {
-    
-    static let manager:SoundManager = SoundManager()
-    
-    fileprivate var soundID:SystemSoundID = 0
-    
-    fileprivate let url_low = URL(fileURLWithPath: Bundle.main.path(forResource: "flapping-low", ofType: "wav")!)
-    
-    fileprivate let url_normal = URL(fileURLWithPath: Bundle.main.path(forResource: "flapping-normal", ofType: "wav")!)
-    
-    fileprivate let url_max = URL(fileURLWithPath: Bundle.main.path(forResource: "flapping-high", ofType: "wav")!)
-    
-    
-    func playFlappingSound(_ volum:SoundVolum = SoundVolum.low)  {
-        let url:URL?
-        switch volum {
-        case .low:
-            url = url_low
-        case .normal:
-            url = url_normal
-        case .high:
-            url = url_max
-        default:
-            url = nil
-        }
-        if let url = url {
-            AudioServicesCreateSystemSoundID(url as CFURL, &soundID)
-            AudioServicesPlayAlertSound(soundID)
-        }
-    }
-
-    
-}
-
-
 
 @available(iOS 10.0, *)
 public class FlippingView:  UIView{
@@ -66,8 +17,10 @@ public class FlippingView:  UIView{
             self.setText(text, false)
         }
     }
+    
     typealias callback = ()->Void
 
+    public var playSoundAction:(()->Void)?
     
     fileprivate var timer:Timer?
     fileprivate var bottomTimer:Timer?
@@ -126,8 +79,8 @@ public class FlippingView:  UIView{
     
     fileprivate let lenght:CGFloat
     fileprivate let h_lenght:CGFloat
-    
-    override init(frame: CGRect) {
+
+    public override init(frame: CGRect) {
         lenght = frame.size.width
         h_lenght = frame.size.height
         super.init(frame: CGRect.init(origin: frame.origin, size: CGSize.init(width: lenght, height: h_lenght)))
@@ -138,6 +91,8 @@ public class FlippingView:  UIView{
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    // MARK: - Private
     
     private func configSubViews()  {
         addSubview(topText)
@@ -231,6 +186,7 @@ public class FlippingView:  UIView{
     }
     
     private func playSound() {
+        playSoundAction?()
 //        guard let v = UserDefaults.standard.value(forKey: Constants.key.volum) as? Int else {
 //            SoundManager.manager.playFlappingSound()
 //            return
@@ -240,7 +196,6 @@ public class FlippingView:  UIView{
 //            return
 //        }
 //        SoundManager.manager.playFlappingSound(type)
-        
     }
     
     // 动态显示文字内容
@@ -259,14 +214,14 @@ public class FlippingView:  UIView{
             isBottomTiming = false
             setText(lastText, false)
         }
-        // 1.设置最新值
+        // 1.set newvavlue
         let new = topTxts[0]
         new.text = content;
         let newb = bottomTxts[0]
         newb.text = content
         
         if animated {
-            // 2.旧值动画跳出
+            // 2.old value
             startTopAnimate(completed:{[weak self] in
                 self?.topAniCallback()
             })
@@ -281,24 +236,17 @@ public class FlippingView:  UIView{
         reloadNewBottom()
     }
     
-    
     func reloadNewBottom()  {
         let new = bottomTxts[0]
-        
         bringSubviewToFront(new)
-        
         bottomTxts.remove(at: 0)
         bottomTxts.append(new)
-        
     }
-    
-    
 }
 
 enum HalfViewType {
     case top, bottom
 }
-
 
 class HalfView: UIView {
     private var title:UILabel = UILabel()
@@ -387,6 +335,10 @@ class HalfView: UIView {
         }
     }
     
+    fileprivate func colorRGBA(r:CGFloat, g:CGFloat, b:CGFloat, a:CGFloat) ->UIColor {
+        return UIColor (red: r/255.0, green: g/255.0, blue: b/255.0, alpha: a)
+    }
+
     fileprivate func configSubViews() {
         addSubview(title)
         title.font = UIFont.systemFont(ofSize: 80)
@@ -408,11 +360,7 @@ class HalfView: UIView {
             title.frame = CGRect.init(origin: CGPoint.init(x: 0, y: -self.bounds.size.height), size: CGSize.init(width: self.bounds.size.width, height: self.bounds.size.height * 2))
             baseline.frame = CGRect.init(origin: CGPoint.zero, size: CGSize.init(width: self.bounds.size.width, height: 2))
         }
-        
         configIos11BeforeCorner()
     }
-    
-    
-    
 }
 

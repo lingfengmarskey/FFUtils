@@ -7,7 +7,7 @@
 //
 
 import Foundation
-extension String {
+public extension String {
     func makeLabelAttributeString() -> NSAttributedString {
         let content = " Sustained : "
         let attributeStringContent = NSMutableAttributedString(string: content)
@@ -68,7 +68,7 @@ import typealias CommonCrypto.CC_LONG
 import func CommonCrypto.CC_MD5
 import var CommonCrypto.CC_MD5_DIGEST_LENGTH
 
-extension String {
+public extension String {
     func MD5() -> Data {
         let length = Int(CC_MD5_DIGEST_LENGTH)
         let messageData = data(using: .utf8)!

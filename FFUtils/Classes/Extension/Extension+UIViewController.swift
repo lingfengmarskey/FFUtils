@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-extension UIAlertController {
+public extension UIAlertController {
     static func makeReconfirmAlert(title: String, confirm: String = "Confirm", confirmAction: (() -> Void)? = nil, cancel: String? = nil, cancelAction: (() -> Void)? = nil) -> UIAlertController {
         let alert = UIAlertController(title: title, message: nil, preferredStyle: .alert)
         let cancelAction = UIAlertAction(title: cancel, style: .cancel) { action in
@@ -24,7 +24,7 @@ extension UIAlertController {
     }
 }
 
-extension UIViewController {
+public extension UIViewController {
     /// Replace childController of Root
       ///
       /// - Parameters:
@@ -59,7 +59,7 @@ extension UIViewController {
     }
 }
 
-extension UIViewController {
+public extension UIViewController {
     /// 获取当前显示的控制器 UIWindow (Visible)
     public class func getCurrentController() -> UIViewController? {
         if let keywindow = UIApplication.shared.keyWindow?.rootViewController {

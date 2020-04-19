@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-extension UITableView {
+public extension UITableView {
     func register<T: UITableViewCell>(cellType: T.Type, bundle: Bundle? = nil) {
         let className = String(describing: cellType)
         let nib = UINib(nibName: className, bundle: bundle)
