@@ -74,11 +74,7 @@ public extension UIViewController {
             return getVisibleViewControllerFrom(vc: (vc as! UINavigationController).visibleViewController!)
         } else if vc.isKind(of: UITabBarController.self) {
             return getVisibleViewControllerFrom(vc: (vc as! UITabBarController).selectedViewController!)
-        }
-//        else if vc.isKind(of: CusTabbarController.self) {
-//            return getVisibleViewControllerFrom(vc: (vc as! CusTabbarController).currentController!)
-//        }
-        else {
+        }else {
             if vc.presentedViewController != nil {
                 return getVisibleViewControllerFrom(vc: vc.presentedViewController!)
             } else {

@@ -7,26 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0056DC5D4B32B288164450D438C5E452 /* FFUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3FCAD48BF906E3E44ADD67C677E5FBF /* FFUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		09929693001061ECC21F6A52D52BD42F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		110BA72A4CB854B612EAA8BFB85C14B9 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC580B4A8462B36DFC053182B5107134 /* Extension+String.swift */; };
-		1A1ACA1B05570E31EE47121CEBB93F5F /* FFUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9DAD52EED64CB90A7850A9B1A8D048 /* FFUtils-dummy.m */; };
+		05C3CFBD1DFEF8A31A60ACA1D2652256 /* FFUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53751E61961722801E1488442C311D7B /* FFUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FDB3221270ACFA3E097E214C2C24C8F /* Extension+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B7C860F9F2A47304062C382AC5AFBB /* Extension+Foundation.swift */; };
 		272E31FCD155524AA672BE93A11B11C9 /* Pods-FFUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 104F2ACBB63143E572A911CACD2078CC /* Pods-FFUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27D3B8DEE3F4EBCE76D219C544C9F62C /* Pods-FFUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A54F99E2AE982BC403670727882D4E4 /* Pods-FFUtils_Example-dummy.m */; };
-		33B99C161769EED176008589F93CE32D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023D21AE3E3139E35271EF5809AA5F33 /* Helper.swift */; };
-		3DD728ADC69C9EDC9CC32627D60D38E2 /* Extension+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E37CA71455160E663657A9EC11489FB /* Extension+UITableView.swift */; };
-		4F51596D174652B9D6ACBB6FE87D6919 /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D8CCA0420620B4A8DEF8596EAB33E4 /* Extension+Date.swift */; };
-		575566A43CA0BF1E0961171F9BF241DE /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3867E097219C587FBC49E661D257A9 /* Extension+UIImage.swift */; };
-		6CFE36EB7DD27F31E82FA7E6E922C31D /* Extension+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8640E2470AA1CFA0B9B09E136A6BCF92 /* Extension+Foundation.swift */; };
-		7628FA4C343DADBEC76DDF8AB1F91879 /* FlippingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D621B1ED34D469FF0B88E6D5EA84F0BB /* FlippingView.swift */; };
-		7929B4C1A500E46E9F764260AF3104A8 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0672EC4969498F65501B54D857FD3 /* Extension+UIViewController.swift */; };
-		868CBC87AC2BCC8906E44C95F60DF932 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4C573713E533EFBC093C036ADBD0C /* Utils.swift */; };
-		8CAF1CC3200F11FB21DEEC0599BAAD18 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B7B75E0B816AA4CDD7BD110A7E922D /* Constants.swift */; };
-		BC559378D424C853D45C334CDAA966BA /* Extension+UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCEB7A948BCE4774C6489E86EC21E0 /* Extension+UIBarButtonItem.swift */; };
-		C031F1DF411175A027473F4E3730B07D /* FFSpeecher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF96FFAE450678A9F6898100FA8E85 /* FFSpeecher.swift */; };
-		D79930676BCD65F7BCB20C6F5DA45105 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B56E614F04BEBAC1DB05F4E3EAB5B12 /* Extension+UIColor.swift */; };
-		ECF76D108D475E4C44130B8C5337FFD3 /* NotificationMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB5548E26B0D907EDA0E8213D276E9 /* NotificationMaker.swift */; };
-		EF7EAC542829842F699548F11726D1DD /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BD2AECD00B9D1A7DF61ED5F5DEB643 /* Extension+UIView.swift */; };
+		63DC9355DCBAD90FC25D9B0842DE39B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D85EF304B33E68555049F5247F1EDFF1 /* FFUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B502217347BA317AE2874D0DAAE1E0C5 /* FFUtils-dummy.m */; };
+		E00E34694073688C8B48646B8ED2EE64 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780FF28587498CA9CE9C81E1CFA01FB6 /* Extension+String.swift */; };
+		E4BF353FC318060D03485EE8ADA45DED /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62A0596E9EEFC991EB1CF2D225DEA47 /* Extension+Date.swift */; };
 		F286893ACF086543DA1DBEEA223C975B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,55 +29,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		023D21AE3E3139E35271EF5809AA5F33 /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		0B56E614F04BEBAC1DB05F4E3EAB5B12 /* Extension+UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
-		0EDB5548E26B0D907EDA0E8213D276E9 /* NotificationMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationMaker.swift; sourceTree = "<group>"; };
 		104F2ACBB63143E572A911CACD2078CC /* Pods-FFUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFUtils_Example-umbrella.h"; sourceTree = "<group>"; };
-		17D8CCA0420620B4A8DEF8596EAB33E4 /* Extension+Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+Date.swift"; sourceTree = "<group>"; };
+		16059C085336ADF2DBD0B2AE3F85194C /* FFUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFUtils.release.xcconfig; sourceTree = "<group>"; };
 		1CA70E39E58E8FE23C463A1942737ABB /* Pods-FFUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1D279B05B1A01F31E0615B8FE88CEE4B /* Pods-FFUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1FC25FAB6E8807B9B6E185BF9FE3E440 /* Pods-FFUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFUtils_Example.modulemap"; sourceTree = "<group>"; };
-		24D0672EC4969498F65501B54D857FD3 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
+		21B7C860F9F2A47304062C382AC5AFBB /* Extension+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Extension+Foundation.swift"; path = "FFUtils/Classes/Extension/Foundation/Extension+Foundation.swift"; sourceTree = "<group>"; };
 		2A54F99E2AE982BC403670727882D4E4 /* Pods-FFUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFUtils_Example-dummy.m"; sourceTree = "<group>"; };
-		2D9DAD52EED64CB90A7850A9B1A8D048 /* FFUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFUtils-dummy.m"; sourceTree = "<group>"; };
-		30E0097C754CE17A6CC0C437473B75AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3408DB6715BB2CFA979850B3A110198E /* FFUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFUtils-prefix.pch"; sourceTree = "<group>"; };
-		35F6926962B227E156812D71A816E0C0 /* FFUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFUtils.modulemap; sourceTree = "<group>"; };
+		53751E61961722801E1488442C311D7B /* FFUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFUtils-umbrella.h"; sourceTree = "<group>"; };
 		5E1908072A99E62BD1D009621519B27D /* Pods_FFUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FFUtils_Example.framework; path = "Pods-FFUtils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E37CA71455160E663657A9EC11489FB /* Extension+UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UITableView.swift"; sourceTree = "<group>"; };
-		75B7B75E0B816AA4CDD7BD110A7E922D /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		8640E2470AA1CFA0B9B09E136A6BCF92 /* Extension+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+Foundation.swift"; sourceTree = "<group>"; };
+		722BA50E68FE3C8934B9B64381DE663C /* FFUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFUtils-Info.plist"; sourceTree = "<group>"; };
+		780FF28587498CA9CE9C81E1CFA01FB6 /* Extension+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Extension+String.swift"; path = "FFUtils/Classes/Extension/Foundation/Extension+String.swift"; sourceTree = "<group>"; };
 		8FCEF0E43415C71BED32AA39CB7B1B84 /* FFUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFUtils.framework; path = FFUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92545B5A1B060EF1C908CBCA3AE4CDEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		999C34339F9E2E3589512FEE655DB6C5 /* FFUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFUtils.modulemap; sourceTree = "<group>"; };
 		9B57096B51D80473D91251F2F7BC07D4 /* Pods-FFUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F634B169D1009C1996880953D67D0E7 /* Pods-FFUtils_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFUtils_Example-Info.plist"; sourceTree = "<group>"; };
-		9FA4C573713E533EFBC093C036ADBD0C /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		A6FCEB7A948BCE4774C6489E86EC21E0 /* Extension+UIBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UIBarButtonItem.swift"; sourceTree = "<group>"; };
-		AB3867E097219C587FBC49E661D257A9 /* Extension+UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
+		A62A0596E9EEFC991EB1CF2D225DEA47 /* Extension+Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Extension+Date.swift"; path = "FFUtils/Classes/Extension/Foundation/Extension+Date.swift"; sourceTree = "<group>"; };
 		AC5620F135D233257ED2F9F039BAA4AC /* Pods-FFUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B3BA585B4D3F8CD256B6D73589D13F9E /* FFUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFUtils.release.xcconfig; sourceTree = "<group>"; };
-		B3FCAD48BF906E3E44ADD67C677E5FBF /* FFUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFUtils-umbrella.h"; sourceTree = "<group>"; };
-		D621B1ED34D469FF0B88E6D5EA84F0BB /* FlippingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlippingView.swift; sourceTree = "<group>"; };
-		DA4B89E8C3C5A9D2AD00D13092CF2DFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E4BD2AECD00B9D1A7DF61ED5F5DEB643 /* Extension+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
-		EF6B1261A0BB1027B11B8C3049F1A094 /* FFUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFUtils.debug.xcconfig; sourceTree = "<group>"; };
+		B502217347BA317AE2874D0DAAE1E0C5 /* FFUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFUtils-dummy.m"; sourceTree = "<group>"; };
+		B83526B879886B6767A3E1E98AADA600 /* FFUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFUtils.debug.xcconfig; sourceTree = "<group>"; };
+		E18AC8875B388358A48DE76DC2B478A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E40545FA5EC4C17A1987A41D90EB67A5 /* FFUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFUtils-prefix.pch"; sourceTree = "<group>"; };
 		F1BF076D80E84D7243F2D6BA230F06C5 /* Pods-FFUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F6CF96FFAE450678A9F6898100FA8E85 /* FFSpeecher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FFSpeecher.swift; sourceTree = "<group>"; };
-		FB4016B3B7154ABAE30872119F984B38 /* FFUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFUtils-Info.plist"; sourceTree = "<group>"; };
-		FC580B4A8462B36DFC053182B5107134 /* Extension+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
-		FD8D35F03DD0C884EEA7523C38B3C79D /* FFUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FFUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F5E92026EFDC3F9622590ED7107B583C /* FFUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FFUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		997FAFF499341781B735DAB307DA07A5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				09929693001061ECC21F6A52D52BD42F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A0664D90C63C1C8E6E339990AD1577DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -98,24 +66,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BBFDA0A1E5A7288F9F1F825FD8A0D7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DC9355DCBAD90FC25D9B0842DE39B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2AD919A11D6EFF19DCEC6874C82E4474 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				35F6926962B227E156812D71A816E0C0 /* FFUtils.modulemap */,
-				2D9DAD52EED64CB90A7850A9B1A8D048 /* FFUtils-dummy.m */,
-				FB4016B3B7154ABAE30872119F984B38 /* FFUtils-Info.plist */,
-				3408DB6715BB2CFA979850B3A110198E /* FFUtils-prefix.pch */,
-				B3FCAD48BF906E3E44ADD67C677E5FBF /* FFUtils-umbrella.h */,
-				EF6B1261A0BB1027B11B8C3049F1A094 /* FFUtils.debug.xcconfig */,
-				B3BA585B4D3F8CD256B6D73589D13F9E /* FFUtils.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FFUtils";
-			sourceTree = "<group>";
-		};
 		2E499AF02626DD25AB0F68F3684EDD92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,34 +86,40 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		50846C4B03478B091E95B98A746447E8 /* Development Pods */ = {
+		4B4596CCA7708C75955309EB1EEAE2BA /* FFUtils */ = {
 			isa = PBXGroup;
 			children = (
-				7A1976997BAC67DE3EFD581475EF9CE9 /* FFUtils */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6C9197B6DDB3B49F46F2EADDB7BAF122 /* FExtension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = FExtension;
-			sourceTree = "<group>";
-		};
-		7A1976997BAC67DE3EFD581475EF9CE9 /* FFUtils */ = {
-			isa = PBXGroup;
-			children = (
-				E9808046D919E760609BF9D04C7194D4 /* CustomView */,
-				AC4686FE0AC83835976866A534FBF11A /* Extension */,
-				6C9197B6DDB3B49F46F2EADDB7BAF122 /* FExtension */,
-				C6D4DED2F1A9AE642B4B3688D587B3D9 /* Pod */,
-				BF5A46A61F38A17A810E9F6641536FA5 /* Services */,
-				2AD919A11D6EFF19DCEC6874C82E4474 /* Support Files */,
-				FFD452334F553785593237E00BAD6D88 /* Utils */,
+				AF3A4C8C4CFE16DA90FF9A629DD89516 /* FFoundationExtension */,
+				57A7802401D4706B7BC2DCBF1969F041 /* Pod */,
+				57AD6F18453079969D2342DAFD0BF716 /* Support Files */,
 			);
 			name = FFUtils;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		57A7802401D4706B7BC2DCBF1969F041 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F5E92026EFDC3F9622590ED7107B583C /* FFUtils.podspec */,
+				E18AC8875B388358A48DE76DC2B478A4 /* LICENSE */,
+				92545B5A1B060EF1C908CBCA3AE4CDEB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		57AD6F18453079969D2342DAFD0BF716 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				999C34339F9E2E3589512FEE655DB6C5 /* FFUtils.modulemap */,
+				B502217347BA317AE2874D0DAAE1E0C5 /* FFUtils-dummy.m */,
+				722BA50E68FE3C8934B9B64381DE663C /* FFUtils-Info.plist */,
+				E40545FA5EC4C17A1987A41D90EB67A5 /* FFUtils-prefix.pch */,
+				53751E61961722801E1488442C311D7B /* FFUtils-umbrella.h */,
+				B83526B879886B6767A3E1E98AADA600 /* FFUtils.debug.xcconfig */,
+				16059C085336ADF2DBD0B2AE3F85194C /* FFUtils.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FFUtils";
 			sourceTree = "<group>";
 		};
 		ABE8BECCFABEE2FE4F7A73612AB0FF69 /* Pods-FFUtils_Example */ = {
@@ -172,30 +139,14 @@
 			path = "Target Support Files/Pods-FFUtils_Example";
 			sourceTree = "<group>";
 		};
-		AC4686FE0AC83835976866A534FBF11A /* Extension */ = {
+		AF3A4C8C4CFE16DA90FF9A629DD89516 /* FFoundationExtension */ = {
 			isa = PBXGroup;
 			children = (
-				17D8CCA0420620B4A8DEF8596EAB33E4 /* Extension+Date.swift */,
-				8640E2470AA1CFA0B9B09E136A6BCF92 /* Extension+Foundation.swift */,
-				FC580B4A8462B36DFC053182B5107134 /* Extension+String.swift */,
-				A6FCEB7A948BCE4774C6489E86EC21E0 /* Extension+UIBarButtonItem.swift */,
-				0B56E614F04BEBAC1DB05F4E3EAB5B12 /* Extension+UIColor.swift */,
-				AB3867E097219C587FBC49E661D257A9 /* Extension+UIImage.swift */,
-				5E37CA71455160E663657A9EC11489FB /* Extension+UITableView.swift */,
-				E4BD2AECD00B9D1A7DF61ED5F5DEB643 /* Extension+UIView.swift */,
-				24D0672EC4969498F65501B54D857FD3 /* Extension+UIViewController.swift */,
+				A62A0596E9EEFC991EB1CF2D225DEA47 /* Extension+Date.swift */,
+				21B7C860F9F2A47304062C382AC5AFBB /* Extension+Foundation.swift */,
+				780FF28587498CA9CE9C81E1CFA01FB6 /* Extension+String.swift */,
 			);
-			name = Extension;
-			path = FFUtils/Classes/Extension;
-			sourceTree = "<group>";
-		};
-		BF5A46A61F38A17A810E9F6641536FA5 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				F6CF96FFAE450678A9F6898100FA8E85 /* FFSpeecher.swift */,
-			);
-			name = Services;
-			path = FFUtils/Classes/Services;
+			name = FFoundationExtension;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -206,21 +157,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C6D4DED2F1A9AE642B4B3688D587B3D9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				FD8D35F03DD0C884EEA7523C38B3C79D /* FFUtils.podspec */,
-				30E0097C754CE17A6CC0C437473B75AD /* LICENSE */,
-				DA4B89E8C3C5A9D2AD00D13092CF2DFA /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				50846C4B03478B091E95B98A746447E8 /* Development Pods */,
+				F1C55F4C79114A80B4F15227F9CCBDF5 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				2E499AF02626DD25AB0F68F3684EDD92 /* Products */,
 				E573D54BBC02F40E78B481F3506CAFEB /* Targets Support Files */,
@@ -243,38 +184,17 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E9808046D919E760609BF9D04C7194D4 /* CustomView */ = {
+		F1C55F4C79114A80B4F15227F9CCBDF5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D621B1ED34D469FF0B88E6D5EA84F0BB /* FlippingView.swift */,
+				4B4596CCA7708C75955309EB1EEAE2BA /* FFUtils */,
 			);
-			name = CustomView;
-			path = FFUtils/Classes/CustomView;
-			sourceTree = "<group>";
-		};
-		FFD452334F553785593237E00BAD6D88 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				75B7B75E0B816AA4CDD7BD110A7E922D /* Constants.swift */,
-				023D21AE3E3139E35271EF5809AA5F33 /* Helper.swift */,
-				0EDB5548E26B0D907EDA0E8213D276E9 /* NotificationMaker.swift */,
-				9FA4C573713E533EFBC093C036ADBD0C /* Utils.swift */,
-			);
-			name = Utils;
-			path = FFUtils/Classes/Utils;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0491243B1F2C6DD75EB306C6401BA401 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0056DC5D4B32B288164450D438C5E452 /* FFUtils-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6852546741525950AFA7D2602AF6F4E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,17 +203,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BD93EA465D784D77C56F0F300C400F83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C3CFBD1DFEF8A31A60ACA1D2652256 /* FFUtils-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		7BE54953BA237945E5204FB3908D434C /* FFUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCF3D42EDF9A42A439ADC97674A3EF06 /* Build configuration list for PBXNativeTarget "FFUtils" */;
+			buildConfigurationList = 19FBE8644AEC7937B3D276004A7D67E8 /* Build configuration list for PBXNativeTarget "FFUtils" */;
 			buildPhases = (
-				0491243B1F2C6DD75EB306C6401BA401 /* Headers */,
-				780CFC18B88A0462497AE061BF0B4ECC /* Sources */,
-				997FAFF499341781B735DAB307DA07A5 /* Frameworks */,
-				97BE898300225750BADA5AA0751F3BEE /* Resources */,
+				BD93EA465D784D77C56F0F300C400F83 /* Headers */,
+				02BD8EE35400572F12EB20ADEB2993F0 /* Sources */,
+				BBFDA0A1E5A7288F9F1F825FD8A0D7F0 /* Frameworks */,
+				27AC7990860D148EE7AADF1137531904 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -352,14 +280,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5994BA0E03BB79BE62310740A16F4541 /* Resources */ = {
+		27AC7990860D148EE7AADF1137531904 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97BE898300225750BADA5AA0751F3BEE /* Resources */ = {
+		5994BA0E03BB79BE62310740A16F4541 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -369,26 +297,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		780CFC18B88A0462497AE061BF0B4ECC /* Sources */ = {
+		02BD8EE35400572F12EB20ADEB2993F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CAF1CC3200F11FB21DEEC0599BAAD18 /* Constants.swift in Sources */,
-				4F51596D174652B9D6ACBB6FE87D6919 /* Extension+Date.swift in Sources */,
-				6CFE36EB7DD27F31E82FA7E6E922C31D /* Extension+Foundation.swift in Sources */,
-				110BA72A4CB854B612EAA8BFB85C14B9 /* Extension+String.swift in Sources */,
-				BC559378D424C853D45C334CDAA966BA /* Extension+UIBarButtonItem.swift in Sources */,
-				D79930676BCD65F7BCB20C6F5DA45105 /* Extension+UIColor.swift in Sources */,
-				575566A43CA0BF1E0961171F9BF241DE /* Extension+UIImage.swift in Sources */,
-				3DD728ADC69C9EDC9CC32627D60D38E2 /* Extension+UITableView.swift in Sources */,
-				EF7EAC542829842F699548F11726D1DD /* Extension+UIView.swift in Sources */,
-				7929B4C1A500E46E9F764260AF3104A8 /* Extension+UIViewController.swift in Sources */,
-				C031F1DF411175A027473F4E3730B07D /* FFSpeecher.swift in Sources */,
-				1A1ACA1B05570E31EE47121CEBB93F5F /* FFUtils-dummy.m in Sources */,
-				7628FA4C343DADBEC76DDF8AB1F91879 /* FlippingView.swift in Sources */,
-				33B99C161769EED176008589F93CE32D /* Helper.swift in Sources */,
-				ECF76D108D475E4C44130B8C5337FFD3 /* NotificationMaker.swift in Sources */,
-				868CBC87AC2BCC8906E44C95F60DF932 /* Utils.swift in Sources */,
+				E4BF353FC318060D03485EE8ADA45DED /* Extension+Date.swift in Sources */,
+				0FDB3221270ACFA3E097E214C2C24C8F /* Extension+Foundation.swift in Sources */,
+				E00E34694073688C8B48646B8ED2EE64 /* Extension+String.swift in Sources */,
+				D85EF304B33E68555049F5247F1EDFF1 /* FFUtils-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +361,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		17C565D8842B58FDEC3757FD0FEDFC4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16059C085336ADF2DBD0B2AE3F85194C /* FFUtils.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FFUtils/FFUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FFUtils/FFUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FFUtils/FFUtils.modulemap";
+				PRODUCT_MODULE_NAME = FFUtils;
+				PRODUCT_NAME = FFUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -510,42 +459,9 @@
 			};
 			name = Debug;
 		};
-		4C230BFB638C82095F720FF7A1E13712 /* Release */ = {
+		537B318C0D6FB7BBA6D41CFED1600695 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3BA585B4D3F8CD256B6D73589D13F9E /* FFUtils.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FFUtils/FFUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FFUtils/FFUtils-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FFUtils/FFUtils.modulemap";
-				PRODUCT_MODULE_NAME = FFUtils;
-				PRODUCT_NAME = FFUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4D6148D1D6DF46E8721AE3A20E6DAF07 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF6B1261A0BB1027B11B8C3049F1A094 /* FFUtils.debug.xcconfig */;
+			baseConfigurationReference = B83526B879886B6767A3E1E98AADA600 /* FFUtils.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -673,6 +589,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		19FBE8644AEC7937B3D276004A7D67E8 /* Build configuration list for PBXNativeTarget "FFUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537B318C0D6FB7BBA6D41CFED1600695 /* Debug */,
+				17C565D8842B58FDEC3757FD0FEDFC4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -687,15 +612,6 @@
 			buildConfigurations = (
 				0B2BA755BBC9EBC159388D30D5D6A7D4 /* Debug */,
 				AFA79ADA599EB2F3AD34A1A1CDB402C0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FCF3D42EDF9A42A439ADC97674A3EF06 /* Build configuration list for PBXNativeTarget "FFUtils" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D6148D1D6DF46E8721AE3A20E6DAF07 /* Debug */,
-				4C230BFB638C82095F720FF7A1E13712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
