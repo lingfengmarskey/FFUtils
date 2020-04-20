@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFUtils'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Common tools in ios development'
 
 # This description is used to generate tags and improve search results.
@@ -32,6 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'FFUtils/Classes/**/*'
   s.swift_version = '5.0'
+  
+  
+  s.subspec 'FExtension' do |fextension|
+    fextension.source_files   = 'FFUtils/Classes/Extension/**/*'
+  end
   # s.resource_bundles = {
   #   'FFUtils' => ['FFUtils/Assets/*.png']
   # }
