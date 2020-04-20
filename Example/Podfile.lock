@@ -1,5 +1,7 @@
 PODS:
-  - FFUtils (0.2.0)
+  - FFUtils (0.2.1):
+    - FFUtils/FExtension (= 0.2.1)
+  - FFUtils/FExtension (0.2.1)
 
 DEPENDENCIES:
   - FFUtils (from `../`)
@@ -9,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFUtils: 418cfbb33aad6a46a4c2e7f4091e2adfc2d1a8aa
+  FFUtils: 40d289b77d5a63c01d2a4db2be33594769ec27c6
 
 PODFILE CHECKSUM: e81fef83d45aa565859e79aff94ada39837f272a
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1
