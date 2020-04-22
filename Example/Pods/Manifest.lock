@@ -1,8 +1,12 @@
 PODS:
+  - FFUtils (0.2.2):
+    - FFUtils/FFoundationExtension (= 0.2.2)
+    - FFUtils/FUIKitExtension (= 0.2.2)
   - FFUtils/FFoundationExtension (0.2.2)
+  - FFUtils/FUIKitExtension (0.2.2)
 
 DEPENDENCIES:
-  - FFUtils/FFoundationExtension (from `../`)
+  - FFUtils (from `../`)
 
 EXTERNAL SOURCES:
   FFUtils:
@@ -11,6 +15,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FFUtils: 56ffaeb779f6f5b128645cac39ce815e576041ce
 
-PODFILE CHECKSUM: d72bc7c9c0ab0354147ad1f8f9b3dbb361c42a2d
+PODFILE CHECKSUM: e81fef83d45aa565859e79aff94ada39837f272a
 
 COCOAPODS: 1.9.1
