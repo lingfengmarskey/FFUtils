@@ -57,7 +57,8 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Utils' do |sp|
     sp.source_files   = 'FFUtils/Classes/Utils/**/*'
-    sp.name = "Utils"
+    sp.name = 'Utils'
+    sp.dependency 'FFUtils/Extension'
   end
   
   # s.resource_bundles = {

@@ -9,7 +9,8 @@ PODS:
   - FFUtils/Extension (0.2.3.beta-1)
   - FFUtils/KeyBoard (0.2.3.beta-1)
   - FFUtils/Services (0.2.3.beta-1)
-  - FFUtils/Utils (0.2.3.beta-1)
+  - FFUtils/Utils (0.2.3.beta-1):
+    - FFUtils/Extension
 
 DEPENDENCIES:
   - FFUtils (from `../`)
@@ -19,7 +20,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFUtils: 2dfe559046466434bb6f99843243f5d6de748a2e
+  FFUtils: 7358e1915617cd28a7f2dad15b497a825b9ba070
 
 PODFILE CHECKSUM: eaffd53bd044fd1a2ffa43eeaa659038d7774713
 

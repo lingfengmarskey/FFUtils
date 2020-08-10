@@ -39,7 +39,12 @@
     },
     {
       "name": "Utils",
-      "source_files": "FFUtils/Classes/Utils/**/*"
+      "source_files": "FFUtils/Classes/Utils/**/*",
+      "dependencies": {
+        "FFUtils/Extension": [
+
+        ]
+      }
     }
   ],
   "swift_version": "5.0"
