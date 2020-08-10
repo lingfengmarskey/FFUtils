@@ -7,6 +7,7 @@
 
 import Foundation
 
+@available(iOSApplicationExtension, unavailable)
 struct AppIcon {
     /// 更新远程图标
     ///  具体是指远程需要本地显示的图标代号

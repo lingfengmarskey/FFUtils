@@ -1,15 +1,15 @@
 PODS:
-  - FFUtils (0.2.3.beta-3):
-    - FFUtils/Extension/Stable (= 0.2.3.beta-3)
-    - FFUtils/KeyBoard (= 0.2.3.beta-3)
-    - FFUtils/Utils (= 0.2.3.beta-3)
-  - FFUtils/Extension (0.2.3.beta-3):
-    - FFUtils/Extension/Main (= 0.2.3.beta-3)
-    - FFUtils/Extension/Stable (= 0.2.3.beta-3)
-  - FFUtils/Extension/Main (0.2.3.beta-3)
-  - FFUtils/Extension/Stable (0.2.3.beta-3)
-  - FFUtils/KeyBoard (0.2.3.beta-3)
-  - FFUtils/Utils (0.2.3.beta-3):
+  - FFUtils (0.2.3.beta-4):
+    - FFUtils/Extension/Stable (= 0.2.3.beta-4)
+    - FFUtils/KeyBoard (= 0.2.3.beta-4)
+    - FFUtils/Utils (= 0.2.3.beta-4)
+  - FFUtils/Extension (0.2.3.beta-4):
+    - FFUtils/Extension/Main (= 0.2.3.beta-4)
+    - FFUtils/Extension/Stable (= 0.2.3.beta-4)
+  - FFUtils/Extension/Main (0.2.3.beta-4)
+  - FFUtils/Extension/Stable (0.2.3.beta-4)
+  - FFUtils/KeyBoard (0.2.3.beta-4)
+  - FFUtils/Utils (0.2.3.beta-4):
     - FFUtils/Extension
 
 DEPENDENCIES:
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFUtils: 855c9eb2ef4b3cefe84f7779f85c999f9300f0e9
+  FFUtils: 6b2f363c0ffdd1a38ecdb2bcc8219e99a83b52d7
 
 PODFILE CHECKSUM: 04e05c7d0eea9e1f6a7cd14a3757370e0fb49f32
 
