@@ -7,23 +7,6 @@
 //
 
 import Foundation
-import UIKit
-public extension UIAlertController {
-    static func makeReconfirmAlert(title: String, confirm: String = "Confirm", confirmAction: (() -> Void)? = nil, cancel: String? = nil, cancelAction: (() -> Void)? = nil) -> UIAlertController {
-        let alert = UIAlertController(title: title, message: nil, preferredStyle: .alert)
-        let cancelAction = UIAlertAction(title: cancel, style: .cancel) { action in
-            cancelAction?()
-            alert.dismiss(animated: true, completion: nil)
-        }
-        let confirmAction = UIAlertAction(title: confirm, style: .destructive) { action in
-            confirmAction?()
-        }
-        alert.addAction(cancelAction)
-        alert.addAction(confirmAction)
-        return alert
-    }
-}
-
 public extension UIViewController {
     
     /// Replace childController of Root
@@ -63,7 +46,7 @@ public extension UIViewController {
 
 public extension UIViewController {
     /// 获取当前显示的控制器 UIWindow (Visible)
-    @available(iOS 10, *)
+    @available(iOSApplicationExtension, unavailable)
      class func getCurrentController() -> UIViewController? {
         if let keywindow = UIApplication.shared.keyWindow?.rootViewController {
             return getVisibleViewControllerFrom(vc: keywindow)

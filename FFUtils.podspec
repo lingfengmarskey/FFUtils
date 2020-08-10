@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFUtils'
-  s.version          = '0.2.3.beta-2'
+  s.version          = '0.2.3.beta-3'
   s.summary          = 'Common tools in ios development'
 
 # This description is used to generate tags and improve search results.
@@ -32,8 +32,6 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'FFUtils/Classes/**/*.swift'
   s.swift_version = '5.0'
-  
-#  spec.module_name   = 'Rich'
 
   s.subspec 'FlippingView' do |sp|
     sp.source_files   = 'FFUtils/Classes/CustomView/**/*.swift'
@@ -43,6 +41,15 @@ TODO: Add long description of the pod here.
   s.subspec 'Extension' do |sp|
     sp.source_files   = 'FFUtils/Classes/Extension/**/*.swift'
     sp.name = "Extension"
+    
+    sp.subspec '' do |ssp|
+        ssp.source_files   = 'FFUtils/Classes/Extension/Stable/*.swift'
+        ssp.name = "Stable"
+    end
+    sp.subspec '' do |ssp|
+           ssp.source_files   = 'FFUtils/Classes/Extension/Main/*.swift'
+           ssp.name = "Main"
+       end
   end
   
   s.subspec 'KeyBoard' do |sp|
@@ -55,17 +62,16 @@ TODO: Add long description of the pod here.
     sp.name = "Services"
   end
   
+  s.subspec 'AppIcon' do |sp|
+    sp.source_files   = 'FFUtils/Classes/AppIcon/**/*.swift'
+    sp.name = "AppIcon"
+  end
+  
   s.subspec 'Utils' do |sp|
-    sp.source_files   = 'FFUtils/Classes/Utils/**/*'
+    sp.source_files   = 'FFUtils/Classes/Utils/*.swift'
     sp.name = 'Utils'
     sp.dependency 'FFUtils/Extension'
   end
   
-  # s.resource_bundles = {
-  #   'FFUtils' => ['FFUtils/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.default_subspecs = 'Extension/Stable', 'KeyBoard','Utils'
 end
