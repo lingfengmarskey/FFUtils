@@ -54,7 +54,7 @@
     },
     {
       "name": "AppIcon",
-      "source_files": "FFUtils/Classes/AppIcon/**/*.swift"
+      "source_files": "FFUtils/Classes/AppIcon/*.swift"
     },
     {
       "name": "Utils",

@@ -63,7 +63,7 @@ TODO: Add long description of the pod here.
   end
   
   s.subspec 'AppIcon' do |sp|
-    sp.source_files   = 'FFUtils/Classes/AppIcon/**/*.swift'
+    sp.source_files   = 'FFUtils/Classes/AppIcon/*.swift'
     sp.name = "AppIcon"
   end
   
