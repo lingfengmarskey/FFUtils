@@ -25,10 +25,8 @@ public class Utils {
     /// 更新本地icon存储
     ///
     /// - Parameter icon: iconName
+    @available(iOS 10.3,*)
     public static func updateLocalIcon(icon:String) -> Void {
-        guard #available(iOS 10.3,*) else {
-            return
-        }
         guard UIApplication.shared.supportsAlternateIcons else {
             return
         }

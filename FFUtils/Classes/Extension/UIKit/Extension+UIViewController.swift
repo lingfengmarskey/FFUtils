@@ -63,6 +63,7 @@ public extension UIViewController {
 
 public extension UIViewController {
     /// 获取当前显示的控制器 UIWindow (Visible)
+    @available(iOS 10, *)
      class func getCurrentController() -> UIViewController? {
         if let keywindow = UIApplication.shared.keyWindow?.rootViewController {
             return getVisibleViewControllerFrom(vc: keywindow)
