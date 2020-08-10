@@ -25,11 +25,13 @@ public extension UIAlertController {
 }
 
 public extension UIViewController {
+    
     /// Replace childController of Root
       ///
       /// - Parameters:
       ///   - fvc: from Controller
     ///   - tvc: to Controller
+    @available(iOS 10.0, *)
     func replace(from fvc: UIViewController, to tvc: UIViewController) {
         if fvc == tvc { return }
         addChild(tvc)

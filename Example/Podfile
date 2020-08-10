@@ -2,7 +2,11 @@ source 'https://github.com/CocoaPods/Specs.git'
  platform :ios, '10.0'
 
 use_frameworks!
-
+pod 'FFUtils', :path => '../'
 target 'FFUtils_Example' do
-  pod 'FFUtils', :path => '../'
+  
 end
+
+#target 'FFUtilsShare' do
+#    pod 'FFUtils', :path => '../'
+#end
