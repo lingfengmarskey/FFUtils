@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFUtils'
-  s.version          = '0.2.3.beta-4'
+  s.version          = '0.2.3.beta-5'
   s.summary          = 'Common tools in ios development'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'FFUtils/Classes/**/*.swift'
+  s.source_files = 'FFUtils/Classes/*.swift'
   s.swift_version = '5.0'
 
   s.subspec 'FlippingView' do |sp|
@@ -67,11 +67,5 @@ TODO: Add long description of the pod here.
     sp.name = "AppIcon"
   end
   
-  s.subspec 'Utils' do |sp|
-    sp.source_files   = 'FFUtils/Classes/Utils/*.swift'
-    sp.name = 'Utils'
-    sp.dependency 'FFUtils/Extension'
-  end
-  
-  s.default_subspecs = 'Extension/Stable', 'KeyBoard','Utils'
+  s.default_subspecs = 'Extension/Stable', 'KeyBoard'
 end

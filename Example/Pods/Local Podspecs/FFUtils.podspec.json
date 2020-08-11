@@ -1,6 +1,6 @@
 {
   "name": "FFUtils",
-  "version": "0.2.3.beta-4",
+  "version": "0.2.3.beta-5",
   "summary": "Common tools in ios development",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/lingfengmarskey/FFUtils",
@@ -13,17 +13,16 @@
   },
   "source": {
     "git": "https://github.com/lingfengmarskey/FFUtils.git",
-    "tag": "0.2.3.beta-4"
+    "tag": "0.2.3.beta-5"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "FFUtils/Classes/**/*.swift",
+  "source_files": "FFUtils/Classes/*.swift",
   "swift_versions": "5.0",
   "default_subspecs": [
     "Extension/Stable",
-    "KeyBoard",
-    "Utils"
+    "KeyBoard"
   ],
   "subspecs": [
     {
@@ -55,15 +54,6 @@
     {
       "name": "AppIcon",
       "source_files": "FFUtils/Classes/AppIcon/*.swift"
-    },
-    {
-      "name": "Utils",
-      "source_files": "FFUtils/Classes/Utils/*.swift",
-      "dependencies": {
-        "FFUtils/Extension": [
-
-        ]
-      }
     }
   ],
   "swift_version": "5.0"

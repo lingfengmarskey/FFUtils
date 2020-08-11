@@ -5,7 +5,7 @@ use_frameworks!
 pod 'FFUtils', :path => '../'
 
 target 'FFUtils_Example' do
-  
+pod 'FFUtils/CustomView', :path => '../'
 end
 
 #target 'FFUtilsShare' do
