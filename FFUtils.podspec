@@ -70,6 +70,7 @@ TODO: Add long description of the pod here.
   s.subspec 'Table' do |tb|
     tb.source_files = 'FFUtils/Classes/Table/*.swift'
     tb.name = "Table"
+    tb.dependency 'FFUtils/Extension'
   end
 
   s.default_subspecs = 'Extension', 'KeyBoard', 'Table'

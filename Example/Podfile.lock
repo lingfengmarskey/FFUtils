@@ -10,7 +10,8 @@ PODS:
   - FFUtils/Extension/Main (0.2.3)
   - FFUtils/Extension/Stable (0.2.3)
   - FFUtils/KeyBoard (0.2.3)
-  - FFUtils/Table (0.2.3)
+  - FFUtils/Table (0.2.3):
+    - FFUtils/Extension
 
 DEPENDENCIES:
   - FFUtils (from `../`)
@@ -21,7 +22,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFUtils: aecf86c1ecc5534fe080b0d8ecd1e5213128e83c
+  FFUtils: 192148dfb8cf69ba82dfcf8f4cfec64629ed2ddb
 
 PODFILE CHECKSUM: 7253751ff25a3beb308da31fdecf6718a0f6a56a
 

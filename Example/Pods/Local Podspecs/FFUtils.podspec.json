@@ -58,7 +58,12 @@
     },
     {
       "name": "Table",
-      "source_files": "FFUtils/Classes/Table/*.swift"
+      "source_files": "FFUtils/Classes/Table/*.swift",
+      "dependencies": {
+        "FFUtils/Extension": [
+
+        ]
+      }
     }
   ],
   "swift_version": "5.0"
