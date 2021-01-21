@@ -62,6 +62,13 @@ public extension String {
 
         return size
     }
+    func toDictionary() -> [String: Any]? {
+        guard let data = self.data(using: String.Encoding.utf8),
+            let dict = try? JSONSerialization.jsonObject(with: data,
+                                                         options: .mutableContainers) as? [String: Any]
+        else { return nil }
+        return dict
+    }
 }
 
 import typealias CommonCrypto.CC_LONG

@@ -18,8 +18,7 @@ public class KeyboardAssistant: NSObject {
     }
 
     private func configObseve() {
-        NotificationCenter.default.addObserver(self, selector: #selector(onObserve), name: UIResponder.keyboardWillShowNotification, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(onObserve), name: UIResponder.keyboardWillHideNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(onObserve), name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
     }
 
     @objc private func onObserve(noti: Notification) {

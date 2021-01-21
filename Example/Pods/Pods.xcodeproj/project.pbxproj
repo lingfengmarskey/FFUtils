@@ -7,44 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02C83A2DA40E68CD020321B279C1CDCF /* Extension+UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EC9385A1676CAD7CD7A1868EBCAE5 /* Extension+UIAlertController.swift */; };
-		0BD6383F784E6AB7F17081574F8F869E /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B130BF5A8D35999CBA0A0116CFE1424 /* Extension+String.swift */; };
-		0DCF8F663B77019D79E4B7D82B834DF3 /* FFUtils.common-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E01204BE6A31C52893461208EDBA167 /* FFUtils.common-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13C025C221C95EB3E7488D28A6E33316 /* FFUtils.common-CustomView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE668A38DC28B359B32BD822FAE3C14 /* FFUtils.common-CustomView-dummy.m */; };
-		214757F19E3B2DDF4869AD9B15D44781 /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB858CDAF7223F82CB792CAC95173B6D /* Extension+UIImage.swift */; };
-		2522CF355BB3E37B22AA58F90C45DAC3 /* Extension+UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EC9385A1676CAD7CD7A1868EBCAE5 /* Extension+UIAlertController.swift */; };
-		3CC6E92727620D16A48ADE51ED7FA39E /* Extension+UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D39DEA32BE5E9FC12BDD4A7E4E3E91C /* Extension+UIBarButtonItem.swift */; };
-		40A042873595461F6C42B7863BF24597 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ACD6FDF8D6596F381740658A75F6C1 /* Extension+UIColor.swift */; };
-		4AA4895D4D2D443290534A522F747F66 /* NotificationMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E7E11155A2DAEF80B2A374690CBEC1 /* NotificationMaker.swift */; };
+		04DB189E0107D433BF73F70CCDFD2CC2 /* Table+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420C9046F808C8997DC6879EDF733F8 /* Table+Protocol.swift */; };
+		0C009ED8C9274FC698A3428D96169811 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4168FD2EB181462A9748B7FDD22D0F7 /* Utils.swift */; };
+		1155346742785200FB39A44B94CCDABF /* FFUtils.common-CustomView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D974B742E6ED5C5A2CB17FD3679F669 /* FFUtils.common-CustomView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15E5F1810D9802FBD592649B05043DAA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C6F1D5891B148982C30548C8CD7503 /* Helper.swift */; };
+		16D6585316CB7B61683521700C0E92B5 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6F75E8A087666F75546B09B472397 /* Extension+UIViewController.swift */; };
+		1EC380A4FD62E2013E71D568B8EEA65F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		201B886867C84A7AFD35CB1D0906E69E /* Table+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420C9046F808C8997DC6879EDF733F8 /* Table+Protocol.swift */; };
+		25CD827C69D8A04FA53CC11F2F110E94 /* BaseCollectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B4C7AB2C6650784E2FE93BD832B356 /* BaseCollectionHelper.swift */; };
+		29BA44D5896A3DE6DAC8A3FCE77ABF65 /* FlippingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D69EA39970FD1069E82DB0BA3F39761 /* FlippingView.swift */; };
+		2F6C26B7AF2D9CA97DF5418067FA3B89 /* FFUtils.common-CustomView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA69F68353AEA4DCF27531AF0B73EF4 /* FFUtils.common-CustomView-dummy.m */; };
+		35CB6CD6D5F17B77DD2F647D4D90F720 /* KeyboardAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D406C6517FF82279BA301EC96E9E825 /* KeyboardAssistant.swift */; };
+		3E68E515A541384C1BA6B57D2D033837 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C6F1D5891B148982C30548C8CD7503 /* Helper.swift */; };
+		416DDE988C8398F9561A3FF6CA8E8D02 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511E6F37C1E50F5FFA4FEABD096B4DE2 /* Extension+UIColor.swift */; };
+		4AE9693B20F744E28C68B3CBC9785643 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511E6F37C1E50F5FFA4FEABD096B4DE2 /* Extension+UIColor.swift */; };
 		51DCA5B3EB946BACC1E3B8EA91D1DF32 /* Pods-FFUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A54F99E2AE982BC403670727882D4E4 /* Pods-FFUtils_Example-dummy.m */; };
-		5EE64E3322DBCF769E6B3DA527555352 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8DCFC13AF10CF2D87F4D2CA7B9A762 /* Extension+UIViewController.swift */; };
-		5F7DC5DFA1BBF952CD26A905B8179FE7 /* FFUtils.common-CustomView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3C03CE3CE29FF81AADD21B855AA50F /* FFUtils.common-CustomView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61BEE5DD3AE1020184F5A47376BA3D70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5C62FBFA1E3EC9382CDDB8FC7E63A730 /* BaseCollectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B4C7AB2C6650784E2FE93BD832B356 /* BaseCollectionHelper.swift */; };
+		5CCC769A9E3E410625E4128F2D1BBCD8 /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD29E7A89B20019D4B1A90427C28C67 /* Extension+UIImage.swift */; };
+		600AF681D3987CA7B03998A2A89B2509 /* FFUtils.common-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1607A06B350AF17F6A7CA955323004 /* FFUtils.common-dummy.m */; };
 		647DA80771EAF0E235E384D2CA9A30BC /* Pods-FFUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 104F2ACBB63143E572A911CACD2078CC /* Pods-FFUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66145EB3D7B52E0692FF839E712E426A /* Extension+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1735995AE881E229E01A5312963341 /* Extension+Foundation.swift */; };
-		664788297C0288F7F57011D14D2BEB0C /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743DF6C1BA39E86D71E9C6CF713AD786 /* Extension+Date.swift */; };
-		68C8D13EA8F58E3EA22F1A415337FDD4 /* NotificationMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E7E11155A2DAEF80B2A374690CBEC1 /* NotificationMaker.swift */; };
-		743759EA852C3BCAA4EED1E0B00B686D /* Extension+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08F169BEA033B981644CC98EABD292 /* Extension+UITableView.swift */; };
-		86337D3625D2397C5F8004B429D3A471 /* FFUtils.common-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 005514F41DE98D1C5AC50AFD13DA996C /* FFUtils.common-dummy.m */; };
-		88D1E2BB50637394E49B3B7DD982FC7F /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D571B742CE75A1568F8B8772B1134A /* Extension+UIView.swift */; };
-		8C640C3C9EC67AEA223C2B01C3F340B0 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB7FC40DE3E8CA54FF9D9E61563A88 /* Helper.swift */; };
-		93581E2D143E78AD48A82D8B39F2C5F0 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D571B742CE75A1568F8B8772B1134A /* Extension+UIView.swift */; };
-		958882725F6ACCE0D6B6A48AB3225C9A /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743DF6C1BA39E86D71E9C6CF713AD786 /* Extension+Date.swift */; };
-		9D25DC6F8232F3943132F6A7863958F7 /* KeyboardAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4EF796BC15457DC1AA82683E3D578 /* KeyboardAssistant.swift */; };
-		9DE66F21ED81B670F811398D5AB4C9E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A43D6BCA4E0694E1231BFE0367E0A0E4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB1165F210EB70612429B11316FDDC /* Utils.swift */; };
-		B0CABC4B7BD430980DE15B3343CC20C7 /* Extension+UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D39DEA32BE5E9FC12BDD4A7E4E3E91C /* Extension+UIBarButtonItem.swift */; };
+		6F05C176135B0951AA56BB7C20B77181 /* Extension+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1572B81FFF2AA057728E48FEC2C266 /* Extension+Foundation.swift */; };
+		7031E32BF9FF2B0CDCB831EA3714FAAB /* Extension+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B649931FADB8F54ECD35F49D9905B4 /* Extension+UITableView.swift */; };
+		70FFBA556D75A37FC3D1CA85232BF985 /* NotificationMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0730DF175DEFD216B2E1DEBB428EF4 /* NotificationMaker.swift */; };
+		8588AA2848EF168328DCDE96B537F2EF /* Extension+UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515CAE70A9BED544920F1A6AD2EB09D7 /* Extension+UIAlertController.swift */; };
+		8C101343A59D3488B7547AE49DDF7533 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4451CE27AF0E9DD0923724FA4F4AF27D /* Extension+UIView.swift */; };
+		8D6A5A9171B1B83DBE7DFA3CC209F1E0 /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFCCD628315B985741FE58ED8FDE39 /* Extension+Date.swift */; };
+		8F8D2AF978E622E3CC31F4F13C9CEF72 /* Extension+UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7226762354C3AA8ACCC893548DC536D /* Extension+UIBarButtonItem.swift */; };
+		91F1F30D0C24D08EE6BDEBCE4B9C3131 /* FFUtils.common-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A50A02AB521126D6184332EBD5DAE488 /* FFUtils.common-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		947FBB856FA5C0479C35EB923369B9FF /* BaseTableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651FC39E12887C4369F29750D89AABAE /* BaseTableHelper.swift */; };
+		96A3F25B8B62F5277802D7D3DAFE9569 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0307064DF0C8DA261B436F9D2F609E /* Extension+String.swift */; };
+		9BA70C7B7CEDC634427244C810F6646E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4168FD2EB181462A9748B7FDD22D0F7 /* Utils.swift */; };
+		9FE51D6D1DF29C3C60BB09F508F273AC /* NotificationMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0730DF175DEFD216B2E1DEBB428EF4 /* NotificationMaker.swift */; };
+		A521DEEF655174A61547C075A220E76F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B92A9D54A2A979AFD9153DF6B4680517 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BBE7E834F75336CEB21E8C3504DF6D0D /* FlippingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFFF7DBA2DF2E89368788308BFE6894 /* FlippingView.swift */; };
-		C11DDB2FFB94D2243DEF743060756E75 /* KeyboardAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4EF796BC15457DC1AA82683E3D578 /* KeyboardAssistant.swift */; };
-		CA2C4824FE5945BDAA43112818FFEC99 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B130BF5A8D35999CBA0A0116CFE1424 /* Extension+String.swift */; };
-		D23BC1D439A78314C0B6587CBF0B32FB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB1165F210EB70612429B11316FDDC /* Utils.swift */; };
-		E5E135077303961EC5E7D2A6A1F25A23 /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB858CDAF7223F82CB792CAC95173B6D /* Extension+UIImage.swift */; };
-		EE9392EAAB1E52C06DECD6510F1B7A06 /* Extension+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1735995AE881E229E01A5312963341 /* Extension+Foundation.swift */; };
-		F1BE19A4BD2E66F75D7350698B85E5B7 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB7FC40DE3E8CA54FF9D9E61563A88 /* Helper.swift */; };
-		F7A356C2C7F600265705FFDB2EE37EC0 /* Extension+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08F169BEA033B981644CC98EABD292 /* Extension+UITableView.swift */; };
-		FDACA0C326B18BCD5A2B8A708363BB6E /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ACD6FDF8D6596F381740658A75F6C1 /* Extension+UIColor.swift */; };
-		FFBAF921E64FB1842362AD643D1B9FBC /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8DCFC13AF10CF2D87F4D2CA7B9A762 /* Extension+UIViewController.swift */; };
+		BB16034D6D59CBF66DF0B8DA4271246E /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0307064DF0C8DA261B436F9D2F609E /* Extension+String.swift */; };
+		CB4AAB4AC8EF0C87ACF0CF38F9690B6A /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4451CE27AF0E9DD0923724FA4F4AF27D /* Extension+UIView.swift */; };
+		D17315767D7B52E05D1E44B293FA38A0 /* Extension+UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515CAE70A9BED544920F1A6AD2EB09D7 /* Extension+UIAlertController.swift */; };
+		D325A3424B8911D769F03686C665E1EA /* Extension+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B649931FADB8F54ECD35F49D9905B4 /* Extension+UITableView.swift */; };
+		D576B16D2EACCCEFCCA00BB8D080B047 /* BaseTableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651FC39E12887C4369F29750D89AABAE /* BaseTableHelper.swift */; };
+		D8464B368B7DB9AE32D4654E940497B9 /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD29E7A89B20019D4B1A90427C28C67 /* Extension+UIImage.swift */; };
+		E05B778607C0065C7AB64F01D535244C /* KeyboardAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D406C6517FF82279BA301EC96E9E825 /* KeyboardAssistant.swift */; };
+		ED2C92E891688A873AC7AD2D2449B90C /* Extension+UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7226762354C3AA8ACCC893548DC536D /* Extension+UIBarButtonItem.swift */; };
+		EF130BCFB6257AC05DA66CD91814AF7D /* Extension+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1572B81FFF2AA057728E48FEC2C266 /* Extension+Foundation.swift */; };
+		F2C1A69E84BFBCA027239B4E11CC9904 /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFCCD628315B985741FE58ED8FDE39 /* Extension+Date.swift */; };
+		FAD8046C4201072B183E0249BEEF7F5B /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6F75E8A087666F75546B09B472397 /* Extension+UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,52 +64,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		005514F41DE98D1C5AC50AFD13DA996C /* FFUtils.common-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFUtils.common-dummy.m"; sourceTree = "<group>"; };
-		0B608E3D06193A9310691D1DF8B4879F /* FFUtils.common.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFUtils.common.modulemap; sourceTree = "<group>"; };
+		0420C9046F808C8997DC6879EDF733F8 /* Table+Protocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Table+Protocol.swift"; path = "FFUtils/Classes/Table/Table+Protocol.swift"; sourceTree = "<group>"; };
+		0C1607A06B350AF17F6A7CA955323004 /* FFUtils.common-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFUtils.common-dummy.m"; sourceTree = "<group>"; };
+		0D974B742E6ED5C5A2CB17FD3679F669 /* FFUtils.common-CustomView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FFUtils.common-CustomView-umbrella.h"; path = "../FFUtils.common-CustomView/FFUtils.common-CustomView-umbrella.h"; sourceTree = "<group>"; };
 		104F2ACBB63143E572A911CACD2078CC /* Pods-FFUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFUtils_Example-umbrella.h"; sourceTree = "<group>"; };
+		11B6F75E8A087666F75546B09B472397 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
+		1A391899D9B897AAD03916A6710A6696 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1CA70E39E58E8FE23C463A1942737ABB /* Pods-FFUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1D279B05B1A01F31E0615B8FE88CEE4B /* Pods-FFUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1F3C03CE3CE29FF81AADD21B855AA50F /* FFUtils.common-CustomView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FFUtils.common-CustomView-umbrella.h"; path = "../FFUtils.common-CustomView/FFUtils.common-CustomView-umbrella.h"; sourceTree = "<group>"; };
 		1FC25FAB6E8807B9B6E185BF9FE3E440 /* Pods-FFUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFUtils_Example.modulemap"; sourceTree = "<group>"; };
-		26E4EF796BC15457DC1AA82683E3D578 /* KeyboardAssistant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAssistant.swift; path = FFUtils/Classes/KeyBoard/KeyboardAssistant.swift; sourceTree = "<group>"; };
+		256749AA8618BD7E099A29358E7C7A55 /* FFUtils.common-CustomView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FFUtils.common-CustomView-prefix.pch"; path = "../FFUtils.common-CustomView/FFUtils.common-CustomView-prefix.pch"; sourceTree = "<group>"; };
 		2A54F99E2AE982BC403670727882D4E4 /* Pods-FFUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFUtils_Example-dummy.m"; sourceTree = "<group>"; };
-		2A91FA1B373F71820BD1A16CCAEDA9D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		307E7ADD1864FD1DE50C94C6D2328D9D /* FFUtils.common-CustomView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "FFUtils.common-CustomView-Info.plist"; path = "../FFUtils.common-CustomView/FFUtils.common-CustomView-Info.plist"; sourceTree = "<group>"; };
-		3188DC97A0F9DDA1B1FCC9B60FA11579 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		30B4C7AB2C6650784E2FE93BD832B356 /* BaseCollectionHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseCollectionHelper.swift; path = FFUtils/Classes/Table/BaseCollectionHelper.swift; sourceTree = "<group>"; };
+		31EFCCD628315B985741FE58ED8FDE39 /* Extension+Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+Date.swift"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3A3EC9385A1676CAD7CD7A1868EBCAE5 /* Extension+UIAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UIAlertController.swift"; sourceTree = "<group>"; };
-		3CFFF7DBA2DF2E89368788308BFE6894 /* FlippingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlippingView.swift; path = FFUtils/Classes/CustomView/FlippingView.swift; sourceTree = "<group>"; };
-		43ACD6FDF8D6596F381740658A75F6C1 /* Extension+UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
-		4C864879F72529E3D627E3716E204700 /* FFUtils.common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFUtils.common.release.xcconfig; sourceTree = "<group>"; };
-		4DFB7FC40DE3E8CA54FF9D9E61563A88 /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = FFUtils/Classes/Helper.swift; sourceTree = "<group>"; };
-		4E8B1A18CBE2E77A2E7F30D500560BB1 /* FFUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FFUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		53A96E6F54D5BD7BCE0000E26E287F9F /* FFUtils.common-CustomView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "FFUtils.common-CustomView.debug.xcconfig"; path = "../FFUtils.common-CustomView/FFUtils.common-CustomView.debug.xcconfig"; sourceTree = "<group>"; };
-		58539F8C4C223192AC81CDE13383DA20 /* FFUtils.common-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFUtils.common-prefix.pch"; sourceTree = "<group>"; };
-		5D7C1E372D69DD2335F2DABD93B8326F /* FFUtils.common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFUtils.common.debug.xcconfig; sourceTree = "<group>"; };
+		387D39D41D6E6AC37BA9D54A44A42145 /* FFUtils.common-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFUtils.common-Info.plist"; sourceTree = "<group>"; };
+		3F9B2FA1F1E03C38FE8B3798B61B8133 /* FFUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FFUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4451CE27AF0E9DD0923724FA4F4AF27D /* Extension+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		48C6F1D5891B148982C30548C8CD7503 /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = FFUtils/Classes/Helper.swift; sourceTree = "<group>"; };
+		4D69EA39970FD1069E82DB0BA3F39761 /* FlippingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlippingView.swift; path = FFUtils/Classes/CustomView/FlippingView.swift; sourceTree = "<group>"; };
+		511E6F37C1E50F5FFA4FEABD096B4DE2 /* Extension+UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		515CAE70A9BED544920F1A6AD2EB09D7 /* Extension+UIAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UIAlertController.swift"; sourceTree = "<group>"; };
+		53165D9B2922C3EF8D89F0CC8B852C16 /* FFUtils.common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFUtils.common.debug.xcconfig; sourceTree = "<group>"; };
+		5AA69F68353AEA4DCF27531AF0B73EF4 /* FFUtils.common-CustomView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FFUtils.common-CustomView-dummy.m"; path = "../FFUtils.common-CustomView/FFUtils.common-CustomView-dummy.m"; sourceTree = "<group>"; };
 		5E1908072A99E62BD1D009621519B27D /* Pods_FFUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FFUtils_Example.framework; path = "Pods-FFUtils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		62143C8EF50271911D5624D834E66744 /* FFUtils.common-CustomView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "FFUtils.common-CustomView.modulemap"; path = "../FFUtils.common-CustomView/FFUtils.common-CustomView.modulemap"; sourceTree = "<group>"; };
+		651FC39E12887C4369F29750D89AABAE /* BaseTableHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseTableHelper.swift; path = FFUtils/Classes/Table/BaseTableHelper.swift; sourceTree = "<group>"; };
 		66D204A75CD74727DEA51B5745C5AD71 /* FFUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFUtils.framework; path = FFUtils.common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D39DEA32BE5E9FC12BDD4A7E4E3E91C /* Extension+UIBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UIBarButtonItem.swift"; sourceTree = "<group>"; };
-		743DF6C1BA39E86D71E9C6CF713AD786 /* Extension+Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+Date.swift"; sourceTree = "<group>"; };
-		7C08F169BEA033B981644CC98EABD292 /* Extension+UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UITableView.swift"; sourceTree = "<group>"; };
-		7FE668A38DC28B359B32BD822FAE3C14 /* FFUtils.common-CustomView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FFUtils.common-CustomView-dummy.m"; path = "../FFUtils.common-CustomView/FFUtils.common-CustomView-dummy.m"; sourceTree = "<group>"; };
-		87D571B742CE75A1568F8B8772B1134A /* Extension+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
-		8B130BF5A8D35999CBA0A0116CFE1424 /* Extension+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		67839CF5D5463EE35D1AB8043C1CB4E6 /* FFUtils.common-CustomView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "FFUtils.common-CustomView.release.xcconfig"; path = "../FFUtils.common-CustomView/FFUtils.common-CustomView.release.xcconfig"; sourceTree = "<group>"; };
+		6BB1D4F764883EC67026BE71A24A0C04 /* FFUtils.common-CustomView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "FFUtils.common-CustomView.modulemap"; path = "../FFUtils.common-CustomView/FFUtils.common-CustomView.modulemap"; sourceTree = "<group>"; };
+		8D8FB98B3EE8CE7D789E4ACF19CB8D6A /* FFUtils.common-CustomView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "FFUtils.common-CustomView.debug.xcconfig"; path = "../FFUtils.common-CustomView/FFUtils.common-CustomView.debug.xcconfig"; sourceTree = "<group>"; };
+		971F1D7ED7096FB243C3ADE8CEB5EC6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9B57096B51D80473D91251F2F7BC07D4 /* Pods-FFUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9C1735995AE881E229E01A5312963341 /* Extension+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+Foundation.swift"; sourceTree = "<group>"; };
+		9D406C6517FF82279BA301EC96E9E825 /* KeyboardAssistant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAssistant.swift; path = FFUtils/Classes/KeyBoard/KeyboardAssistant.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E01204BE6A31C52893461208EDBA167 /* FFUtils.common-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFUtils.common-umbrella.h"; sourceTree = "<group>"; };
+		9E1572B81FFF2AA057728E48FEC2C266 /* Extension+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+Foundation.swift"; sourceTree = "<group>"; };
 		9F634B169D1009C1996880953D67D0E7 /* Pods-FFUtils_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFUtils_Example-Info.plist"; sourceTree = "<group>"; };
-		A4CB1165F210EB70612429B11316FDDC /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = FFUtils/Classes/Utils.swift; sourceTree = "<group>"; };
-		AB858CDAF7223F82CB792CAC95173B6D /* Extension+UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
+		A50A02AB521126D6184332EBD5DAE488 /* FFUtils.common-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFUtils.common-umbrella.h"; sourceTree = "<group>"; };
 		AC5620F135D233257ED2F9F039BAA4AC /* Pods-FFUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CA0806B3B8A2B4EA229B05F6E0873095 /* FFUtils.common-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFUtils.common-Info.plist"; sourceTree = "<group>"; };
-		DE8DCFC13AF10CF2D87F4D2CA7B9A762 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
-		E250768B2690595B74E9F47B877F93E9 /* FFUtils.common-CustomView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "FFUtils.common-CustomView.release.xcconfig"; path = "../FFUtils.common-CustomView/FFUtils.common-CustomView.release.xcconfig"; sourceTree = "<group>"; };
+		B20D07CCB96AB2B08B22B73FF2C7E030 /* FFUtils.common-CustomView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "FFUtils.common-CustomView-Info.plist"; path = "../FFUtils.common-CustomView/FFUtils.common-CustomView-Info.plist"; sourceTree = "<group>"; };
+		B4168FD2EB181462A9748B7FDD22D0F7 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = FFUtils/Classes/Utils.swift; sourceTree = "<group>"; };
+		BAD29E7A89B20019D4B1A90427C28C67 /* Extension+UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
+		C00ECA20589C16718B6B97512DD61A81 /* FFUtils.common.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFUtils.common.modulemap; sourceTree = "<group>"; };
+		C4F219B38F992278F69372EF3AE08E5E /* FFUtils.common-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFUtils.common-prefix.pch"; sourceTree = "<group>"; };
+		DA0730DF175DEFD216B2E1DEBB428EF4 /* NotificationMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationMaker.swift; path = FFUtils/Classes/NotificationMaker.swift; sourceTree = "<group>"; };
+		E939B26637C7128D97D5AFC5783C9F06 /* FFUtils.common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFUtils.common.release.xcconfig; sourceTree = "<group>"; };
 		F1BF076D80E84D7243F2D6BA230F06C5 /* Pods-FFUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2B649931FADB8F54ECD35F49D9905B4 /* Extension+UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UITableView.swift"; sourceTree = "<group>"; };
 		F4DAAC0328D85E6336C142F6962C0F3B /* FFUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFUtils.framework; path = "FFUtils.common-CustomView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4E7E11155A2DAEF80B2A374690CBEC1 /* NotificationMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationMaker.swift; path = FFUtils/Classes/NotificationMaker.swift; sourceTree = "<group>"; };
-		FEC9992D40E1BA169A9D2FD567A15AEA /* FFUtils.common-CustomView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FFUtils.common-CustomView-prefix.pch"; path = "../FFUtils.common-CustomView/FFUtils.common-CustomView-prefix.pch"; sourceTree = "<group>"; };
+		F7226762354C3AA8ACCC893548DC536D /* Extension+UIBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+UIBarButtonItem.swift"; sourceTree = "<group>"; };
+		FB0307064DF0C8DA261B436F9D2F609E /* Extension+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,97 +124,89 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68D0A89505411ED968A55519705BCC1E /* Frameworks */ = {
+		5EDBA8FEA9F039F8612C7EB70086AD59 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DE66F21ED81B670F811398D5AB4C9E3 /* Foundation.framework in Frameworks */,
+				A521DEEF655174A61547C075A220E76F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4350884354A4D922AEEFD17EF1B4B10 /* Frameworks */ = {
+		AF8DDFA6060349952998DDABB3EC0C83 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61BEE5DD3AE1020184F5A47376BA3D70 /* Foundation.framework in Frameworks */,
+				1EC380A4FD62E2013E71D568B8EEA65F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A8733CCEC9E2B93078CA1BC2BEA7470 /* Extension */ = {
+		835D34F05731582E541224E64525666F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				59FBEF7FA4A99698F3835D7CCBC06970 /* Main */,
-				C85E415FDEC7E6F9F1B59342EDBDE10C /* Stable */,
-			);
-			name = Extension;
-			sourceTree = "<group>";
-		};
-		3374B9BAC467EDDD4EC1919BBEC9BE4E /* KeyBoard */ = {
-			isa = PBXGroup;
-			children = (
-				26E4EF796BC15457DC1AA82683E3D578 /* KeyboardAssistant.swift */,
-			);
-			name = KeyBoard;
-			sourceTree = "<group>";
-		};
-		415A1FE281E2BA4FAC7BBAD85C83C780 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AF96B07C6A2D3B75814479379CE6AEA1 /* FFUtils */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		580EA75A70E9CC30DC8D2C0694000D55 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4E8B1A18CBE2E77A2E7F30D500560BB1 /* FFUtils.podspec */,
-				2A91FA1B373F71820BD1A16CCAEDA9D9 /* LICENSE */,
-				3188DC97A0F9DDA1B1FCC9B60FA11579 /* README.md */,
+				3F9B2FA1F1E03C38FE8B3798B61B8133 /* FFUtils.podspec */,
+				1A391899D9B897AAD03916A6710A6696 /* LICENSE */,
+				971F1D7ED7096FB243C3ADE8CEB5EC6A /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		59FBEF7FA4A99698F3835D7CCBC06970 /* Main */ = {
+		89187AAE19846DB14776552BFA1234EC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DE8DCFC13AF10CF2D87F4D2CA7B9A762 /* Extension+UIViewController.swift */,
-			);
-			name = Main;
-			path = FFUtils/Classes/Extension/Main;
-			sourceTree = "<group>";
-		};
-		7C7B239B928A9E9D1064D3F521D7F9FA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0B608E3D06193A9310691D1DF8B4879F /* FFUtils.common.modulemap */,
-				62143C8EF50271911D5624D834E66744 /* FFUtils.common-CustomView.modulemap */,
-				7FE668A38DC28B359B32BD822FAE3C14 /* FFUtils.common-CustomView-dummy.m */,
-				307E7ADD1864FD1DE50C94C6D2328D9D /* FFUtils.common-CustomView-Info.plist */,
-				FEC9992D40E1BA169A9D2FD567A15AEA /* FFUtils.common-CustomView-prefix.pch */,
-				1F3C03CE3CE29FF81AADD21B855AA50F /* FFUtils.common-CustomView-umbrella.h */,
-				53A96E6F54D5BD7BCE0000E26E287F9F /* FFUtils.common-CustomView.debug.xcconfig */,
-				E250768B2690595B74E9F47B877F93E9 /* FFUtils.common-CustomView.release.xcconfig */,
-				005514F41DE98D1C5AC50AFD13DA996C /* FFUtils.common-dummy.m */,
-				CA0806B3B8A2B4EA229B05F6E0873095 /* FFUtils.common-Info.plist */,
-				58539F8C4C223192AC81CDE13383DA20 /* FFUtils.common-prefix.pch */,
-				9E01204BE6A31C52893461208EDBA167 /* FFUtils.common-umbrella.h */,
-				5D7C1E372D69DD2335F2DABD93B8326F /* FFUtils.common.debug.xcconfig */,
-				4C864879F72529E3D627E3716E204700 /* FFUtils.common.release.xcconfig */,
+				C00ECA20589C16718B6B97512DD61A81 /* FFUtils.common.modulemap */,
+				6BB1D4F764883EC67026BE71A24A0C04 /* FFUtils.common-CustomView.modulemap */,
+				5AA69F68353AEA4DCF27531AF0B73EF4 /* FFUtils.common-CustomView-dummy.m */,
+				B20D07CCB96AB2B08B22B73FF2C7E030 /* FFUtils.common-CustomView-Info.plist */,
+				256749AA8618BD7E099A29358E7C7A55 /* FFUtils.common-CustomView-prefix.pch */,
+				0D974B742E6ED5C5A2CB17FD3679F669 /* FFUtils.common-CustomView-umbrella.h */,
+				8D8FB98B3EE8CE7D789E4ACF19CB8D6A /* FFUtils.common-CustomView.debug.xcconfig */,
+				67839CF5D5463EE35D1AB8043C1CB4E6 /* FFUtils.common-CustomView.release.xcconfig */,
+				0C1607A06B350AF17F6A7CA955323004 /* FFUtils.common-dummy.m */,
+				387D39D41D6E6AC37BA9D54A44A42145 /* FFUtils.common-Info.plist */,
+				C4F219B38F992278F69372EF3AE08E5E /* FFUtils.common-prefix.pch */,
+				A50A02AB521126D6184332EBD5DAE488 /* FFUtils.common-umbrella.h */,
+				53165D9B2922C3EF8D89F0CC8B852C16 /* FFUtils.common.debug.xcconfig */,
+				E939B26637C7128D97D5AFC5783C9F06 /* FFUtils.common.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/FFUtils.common";
 			sourceTree = "<group>";
 		};
-		8990B357CA6CCF47111C80F190E1FEFA /* CustomView */ = {
+		8EE51108D084018F92983DC3D7EA83E7 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				3CFFF7DBA2DF2E89368788308BFE6894 /* FlippingView.swift */,
+				11B6F75E8A087666F75546B09B472397 /* Extension+UIViewController.swift */,
+			);
+			name = Main;
+			path = FFUtils/Classes/Extension/Main;
+			sourceTree = "<group>";
+		};
+		91BDDBEC3E9B7CA1C6B504BD6884DEB1 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				4D69EA39970FD1069E82DB0BA3F39761 /* FlippingView.swift */,
 			);
 			name = CustomView;
+			sourceTree = "<group>";
+		};
+		A32FAB5577DF22CC8B47B0516486D6A6 /* Stable */ = {
+			isa = PBXGroup;
+			children = (
+				31EFCCD628315B985741FE58ED8FDE39 /* Extension+Date.swift */,
+				9E1572B81FFF2AA057728E48FEC2C266 /* Extension+Foundation.swift */,
+				FB0307064DF0C8DA261B436F9D2F609E /* Extension+String.swift */,
+				515CAE70A9BED544920F1A6AD2EB09D7 /* Extension+UIAlertController.swift */,
+				F7226762354C3AA8ACCC893548DC536D /* Extension+UIBarButtonItem.swift */,
+				511E6F37C1E50F5FFA4FEABD096B4DE2 /* Extension+UIColor.swift */,
+				BAD29E7A89B20019D4B1A90427C28C67 /* Extension+UIImage.swift */,
+				F2B649931FADB8F54ECD35F49D9905B4 /* Extension+UITableView.swift */,
+				4451CE27AF0E9DD0923724FA4F4AF27D /* Extension+UIView.swift */,
+			);
+			name = Stable;
+			path = FFUtils/Classes/Extension/Stable;
 			sourceTree = "<group>";
 		};
 		A94029913D95A569221E68FFEAD7FE63 /* Products */ = {
@@ -235,20 +236,14 @@
 			path = "Target Support Files/Pods-FFUtils_Example";
 			sourceTree = "<group>";
 		};
-		AF96B07C6A2D3B75814479379CE6AEA1 /* FFUtils */ = {
+		ACA0D3592D5D2E604E0530E8D8AF5A19 /* Table */ = {
 			isa = PBXGroup;
 			children = (
-				4DFB7FC40DE3E8CA54FF9D9E61563A88 /* Helper.swift */,
-				F4E7E11155A2DAEF80B2A374690CBEC1 /* NotificationMaker.swift */,
-				A4CB1165F210EB70612429B11316FDDC /* Utils.swift */,
-				8990B357CA6CCF47111C80F190E1FEFA /* CustomView */,
-				1A8733CCEC9E2B93078CA1BC2BEA7470 /* Extension */,
-				3374B9BAC467EDDD4EC1919BBEC9BE4E /* KeyBoard */,
-				580EA75A70E9CC30DC8D2C0694000D55 /* Pod */,
-				7C7B239B928A9E9D1064D3F521D7F9FA /* Support Files */,
+				30B4C7AB2C6650784E2FE93BD832B356 /* BaseCollectionHelper.swift */,
+				651FC39E12887C4369F29750D89AABAE /* BaseTableHelper.swift */,
+				0420C9046F808C8997DC6879EDF733F8 /* Table+Protocol.swift */,
 			);
-			name = FFUtils;
-			path = ../..;
+			name = Table;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -259,32 +254,32 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C85E415FDEC7E6F9F1B59342EDBDE10C /* Stable */ = {
+		C3C1895E13B4A1374EEBCB5456FD756D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				743DF6C1BA39E86D71E9C6CF713AD786 /* Extension+Date.swift */,
-				9C1735995AE881E229E01A5312963341 /* Extension+Foundation.swift */,
-				8B130BF5A8D35999CBA0A0116CFE1424 /* Extension+String.swift */,
-				3A3EC9385A1676CAD7CD7A1868EBCAE5 /* Extension+UIAlertController.swift */,
-				6D39DEA32BE5E9FC12BDD4A7E4E3E91C /* Extension+UIBarButtonItem.swift */,
-				43ACD6FDF8D6596F381740658A75F6C1 /* Extension+UIColor.swift */,
-				AB858CDAF7223F82CB792CAC95173B6D /* Extension+UIImage.swift */,
-				7C08F169BEA033B981644CC98EABD292 /* Extension+UITableView.swift */,
-				87D571B742CE75A1568F8B8772B1134A /* Extension+UIView.swift */,
+				F4B3AFF2D1088C9BD77A1D7A20395008 /* FFUtils */,
 			);
-			name = Stable;
-			path = FFUtils/Classes/Extension/Stable;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				415A1FE281E2BA4FAC7BBAD85C83C780 /* Development Pods */,
+				C3C1895E13B4A1374EEBCB5456FD756D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				A94029913D95A569221E68FFEAD7FE63 /* Products */,
 				E573D54BBC02F40E78B481F3506CAFEB /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D15715494E5D7407A15E487D3AC2E9AF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8EE51108D084018F92983DC3D7EA83E7 /* Main */,
+				A32FAB5577DF22CC8B47B0516486D6A6 /* Stable */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -303,6 +298,31 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		E5A9CBAB692AC74C47EAA4A8A80D8752 /* KeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				9D406C6517FF82279BA301EC96E9E825 /* KeyboardAssistant.swift */,
+			);
+			name = KeyBoard;
+			sourceTree = "<group>";
+		};
+		F4B3AFF2D1088C9BD77A1D7A20395008 /* FFUtils */ = {
+			isa = PBXGroup;
+			children = (
+				48C6F1D5891B148982C30548C8CD7503 /* Helper.swift */,
+				DA0730DF175DEFD216B2E1DEBB428EF4 /* NotificationMaker.swift */,
+				B4168FD2EB181462A9748B7FDD22D0F7 /* Utils.swift */,
+				91BDDBEC3E9B7CA1C6B504BD6884DEB1 /* CustomView */,
+				D15715494E5D7407A15E487D3AC2E9AF /* Extension */,
+				E5A9CBAB692AC74C47EAA4A8A80D8752 /* KeyBoard */,
+				835D34F05731582E541224E64525666F /* Pod */,
+				89187AAE19846DB14776552BFA1234EC /* Support Files */,
+				ACA0D3592D5D2E604E0530E8D8AF5A19 /* Table */,
+			);
+			name = FFUtils;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -314,19 +334,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A886F775F6055609EF24A29CF8E2983 /* Headers */ = {
+		D32A6207E4488853931A1DBF598D26DC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DCF8F663B77019D79E4B7D82B834DF3 /* FFUtils.common-umbrella.h in Headers */,
+				91F1F30D0C24D08EE6BDEBCE4B9C3131 /* FFUtils.common-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA3920F1E99455F0AAEDBEBCCFA2FB65 /* Headers */ = {
+		E47C188485533C699EC91F14AF8F4467 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F7DC5DFA1BBF952CD26A905B8179FE7 /* FFUtils.common-CustomView-umbrella.h in Headers */,
+				1155346742785200FB39A44B94CCDABF /* FFUtils.common-CustomView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,12 +355,12 @@
 /* Begin PBXNativeTarget section */
 		57A0F55CB245B351DF0FC4D2E7126A63 /* FFUtils.common-CustomView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D44844B819DF9D4FDD91E37C66325EE /* Build configuration list for PBXNativeTarget "FFUtils.common-CustomView" */;
+			buildConfigurationList = BA8776D333E5F543A7B0A9D08EF13514 /* Build configuration list for PBXNativeTarget "FFUtils.common-CustomView" */;
 			buildPhases = (
-				FA3920F1E99455F0AAEDBEBCCFA2FB65 /* Headers */,
-				CD6AA00EF0B56F579113600DC47FFE17 /* Sources */,
-				B4350884354A4D922AEEFD17EF1B4B10 /* Frameworks */,
-				C13E6073E21E625E95A2FA35B7F4C36F /* Resources */,
+				E47C188485533C699EC91F14AF8F4467 /* Headers */,
+				DE70182F997BC76F61C4FBD5F97FF1CA /* Sources */,
+				5EDBA8FEA9F039F8612C7EB70086AD59 /* Frameworks */,
+				A8FAEAE08466D050D8ACE74EA3CDF896 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -353,12 +373,12 @@
 		};
 		9E5D45FF0FCD7CF76A75FC3D8D6A2C48 /* FFUtils.common */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53DCAAC219DFF0E9506EE911F8A22D0E /* Build configuration list for PBXNativeTarget "FFUtils.common" */;
+			buildConfigurationList = E73EA61C33D584ED3D159834542F660B /* Build configuration list for PBXNativeTarget "FFUtils.common" */;
 			buildPhases = (
-				8A886F775F6055609EF24A29CF8E2983 /* Headers */,
-				66208D6DCF7C8D1C689091BDDF980A29 /* Sources */,
-				68D0A89505411ED968A55519705BCC1E /* Frameworks */,
-				2674ADAA1013C06D369D2546A858FDC6 /* Resources */,
+				D32A6207E4488853931A1DBF598D26DC /* Headers */,
+				35F6943C9A047AD8357B6F9DDE698255 /* Sources */,
+				AF8DDFA6060349952998DDABB3EC0C83 /* Frameworks */,
+				E4DCE2FDBC83F7360F243BB458410049 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -425,14 +445,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2674ADAA1013C06D369D2546A858FDC6 /* Resources */ = {
+		A8FAEAE08466D050D8ACE74EA3CDF896 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C13E6073E21E625E95A2FA35B7F4C36F /* Resources */ = {
+		E4DCE2FDBC83F7360F243BB458410049 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -442,25 +462,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		66208D6DCF7C8D1C689091BDDF980A29 /* Sources */ = {
+		35F6943C9A047AD8357B6F9DDE698255 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				664788297C0288F7F57011D14D2BEB0C /* Extension+Date.swift in Sources */,
-				66145EB3D7B52E0692FF839E712E426A /* Extension+Foundation.swift in Sources */,
-				CA2C4824FE5945BDAA43112818FFEC99 /* Extension+String.swift in Sources */,
-				2522CF355BB3E37B22AA58F90C45DAC3 /* Extension+UIAlertController.swift in Sources */,
-				B0CABC4B7BD430980DE15B3343CC20C7 /* Extension+UIBarButtonItem.swift in Sources */,
-				FDACA0C326B18BCD5A2B8A708363BB6E /* Extension+UIColor.swift in Sources */,
-				214757F19E3B2DDF4869AD9B15D44781 /* Extension+UIImage.swift in Sources */,
-				743759EA852C3BCAA4EED1E0B00B686D /* Extension+UITableView.swift in Sources */,
-				93581E2D143E78AD48A82D8B39F2C5F0 /* Extension+UIView.swift in Sources */,
-				5EE64E3322DBCF769E6B3DA527555352 /* Extension+UIViewController.swift in Sources */,
-				86337D3625D2397C5F8004B429D3A471 /* FFUtils.common-dummy.m in Sources */,
-				8C640C3C9EC67AEA223C2B01C3F340B0 /* Helper.swift in Sources */,
-				9D25DC6F8232F3943132F6A7863958F7 /* KeyboardAssistant.swift in Sources */,
-				68C8D13EA8F58E3EA22F1A415337FDD4 /* NotificationMaker.swift in Sources */,
-				A43D6BCA4E0694E1231BFE0367E0A0E4 /* Utils.swift in Sources */,
+				25CD827C69D8A04FA53CC11F2F110E94 /* BaseCollectionHelper.swift in Sources */,
+				D576B16D2EACCCEFCCA00BB8D080B047 /* BaseTableHelper.swift in Sources */,
+				8D6A5A9171B1B83DBE7DFA3CC209F1E0 /* Extension+Date.swift in Sources */,
+				EF130BCFB6257AC05DA66CD91814AF7D /* Extension+Foundation.swift in Sources */,
+				96A3F25B8B62F5277802D7D3DAFE9569 /* Extension+String.swift in Sources */,
+				8588AA2848EF168328DCDE96B537F2EF /* Extension+UIAlertController.swift in Sources */,
+				8F8D2AF978E622E3CC31F4F13C9CEF72 /* Extension+UIBarButtonItem.swift in Sources */,
+				416DDE988C8398F9561A3FF6CA8E8D02 /* Extension+UIColor.swift in Sources */,
+				D8464B368B7DB9AE32D4654E940497B9 /* Extension+UIImage.swift in Sources */,
+				7031E32BF9FF2B0CDCB831EA3714FAAB /* Extension+UITableView.swift in Sources */,
+				CB4AAB4AC8EF0C87ACF0CF38F9690B6A /* Extension+UIView.swift in Sources */,
+				16D6585316CB7B61683521700C0E92B5 /* Extension+UIViewController.swift in Sources */,
+				600AF681D3987CA7B03998A2A89B2509 /* FFUtils.common-dummy.m in Sources */,
+				3E68E515A541384C1BA6B57D2D033837 /* Helper.swift in Sources */,
+				35CB6CD6D5F17B77DD2F647D4D90F720 /* KeyboardAssistant.swift in Sources */,
+				9FE51D6D1DF29C3C60BB09F508F273AC /* NotificationMaker.swift in Sources */,
+				04DB189E0107D433BF73F70CCDFD2CC2 /* Table+Protocol.swift in Sources */,
+				9BA70C7B7CEDC634427244C810F6646E /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,26 +495,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD6AA00EF0B56F579113600DC47FFE17 /* Sources */ = {
+		DE70182F997BC76F61C4FBD5F97FF1CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				958882725F6ACCE0D6B6A48AB3225C9A /* Extension+Date.swift in Sources */,
-				EE9392EAAB1E52C06DECD6510F1B7A06 /* Extension+Foundation.swift in Sources */,
-				0BD6383F784E6AB7F17081574F8F869E /* Extension+String.swift in Sources */,
-				02C83A2DA40E68CD020321B279C1CDCF /* Extension+UIAlertController.swift in Sources */,
-				3CC6E92727620D16A48ADE51ED7FA39E /* Extension+UIBarButtonItem.swift in Sources */,
-				40A042873595461F6C42B7863BF24597 /* Extension+UIColor.swift in Sources */,
-				E5E135077303961EC5E7D2A6A1F25A23 /* Extension+UIImage.swift in Sources */,
-				F7A356C2C7F600265705FFDB2EE37EC0 /* Extension+UITableView.swift in Sources */,
-				88D1E2BB50637394E49B3B7DD982FC7F /* Extension+UIView.swift in Sources */,
-				FFBAF921E64FB1842362AD643D1B9FBC /* Extension+UIViewController.swift in Sources */,
-				13C025C221C95EB3E7488D28A6E33316 /* FFUtils.common-CustomView-dummy.m in Sources */,
-				BBE7E834F75336CEB21E8C3504DF6D0D /* FlippingView.swift in Sources */,
-				F1BE19A4BD2E66F75D7350698B85E5B7 /* Helper.swift in Sources */,
-				C11DDB2FFB94D2243DEF743060756E75 /* KeyboardAssistant.swift in Sources */,
-				4AA4895D4D2D443290534A522F747F66 /* NotificationMaker.swift in Sources */,
-				D23BC1D439A78314C0B6587CBF0B32FB /* Utils.swift in Sources */,
+				5C62FBFA1E3EC9382CDDB8FC7E63A730 /* BaseCollectionHelper.swift in Sources */,
+				947FBB856FA5C0479C35EB923369B9FF /* BaseTableHelper.swift in Sources */,
+				F2C1A69E84BFBCA027239B4E11CC9904 /* Extension+Date.swift in Sources */,
+				6F05C176135B0951AA56BB7C20B77181 /* Extension+Foundation.swift in Sources */,
+				BB16034D6D59CBF66DF0B8DA4271246E /* Extension+String.swift in Sources */,
+				D17315767D7B52E05D1E44B293FA38A0 /* Extension+UIAlertController.swift in Sources */,
+				ED2C92E891688A873AC7AD2D2449B90C /* Extension+UIBarButtonItem.swift in Sources */,
+				4AE9693B20F744E28C68B3CBC9785643 /* Extension+UIColor.swift in Sources */,
+				5CCC769A9E3E410625E4128F2D1BBCD8 /* Extension+UIImage.swift in Sources */,
+				D325A3424B8911D769F03686C665E1EA /* Extension+UITableView.swift in Sources */,
+				8C101343A59D3488B7547AE49DDF7533 /* Extension+UIView.swift in Sources */,
+				FAD8046C4201072B183E0249BEEF7F5B /* Extension+UIViewController.swift in Sources */,
+				2F6C26B7AF2D9CA97DF5418067FA3B89 /* FFUtils.common-CustomView-dummy.m in Sources */,
+				29BA44D5896A3DE6DAC8A3FCE77ABF65 /* FlippingView.swift in Sources */,
+				15E5F1810D9802FBD592649B05043DAA /* Helper.swift in Sources */,
+				E05B778607C0065C7AB64F01D535244C /* KeyboardAssistant.swift in Sources */,
+				70FFBA556D75A37FC3D1CA85232BF985 /* NotificationMaker.swift in Sources */,
+				201B886867C84A7AFD35CB1D0906E69E /* Table+Protocol.swift in Sources */,
+				0C009ED8C9274FC698A3428D96169811 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,39 +533,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E3329521DF5286A6ED811BCC4E05638 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C864879F72529E3D627E3716E204700 /* FFUtils.common.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FFUtils.common/FFUtils.common-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FFUtils.common/FFUtils.common-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FFUtils.common/FFUtils.common.modulemap";
-				PRODUCT_MODULE_NAME = FFUtils;
-				PRODUCT_NAME = FFUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -604,9 +597,9 @@
 			};
 			name = Debug;
 		};
-		1D46F6D6037493CB7B74401114739BAE /* Debug */ = {
+		2BB0E811126708274A94C85FA33D6C35 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53A96E6F54D5BD7BCE0000E26E287F9F /* FFUtils.common-CustomView.debug.xcconfig */;
+			baseConfigurationReference = 8D8FB98B3EE8CE7D789E4ACF19CB8D6A /* FFUtils.common-CustomView.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -624,6 +617,38 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FFUtils.common-CustomView/FFUtils.common-CustomView.modulemap";
+				PRODUCT_MODULE_NAME = FFUtils;
+				PRODUCT_NAME = FFUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53ACF309F6B8EA81173E651808721D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53165D9B2922C3EF8D89F0CC8B852C16 /* FFUtils.common.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FFUtils.common/FFUtils.common-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FFUtils.common/FFUtils.common-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FFUtils.common/FFUtils.common.modulemap";
 				PRODUCT_MODULE_NAME = FFUtils;
 				PRODUCT_NAME = FFUtils;
 				SDKROOT = iphoneos;
@@ -705,39 +730,6 @@
 			};
 			name = Debug;
 		};
-		AF784377CC2D79C4627371945D684F9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E250768B2690595B74E9F47B877F93E9 /* FFUtils.common-CustomView.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FFUtils.common-CustomView/FFUtils.common-CustomView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FFUtils.common-CustomView/FFUtils.common-CustomView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FFUtils.common-CustomView/FFUtils.common-CustomView.modulemap";
-				PRODUCT_MODULE_NAME = FFUtils;
-				PRODUCT_NAME = FFUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -798,9 +790,42 @@
 			};
 			name = Release;
 		};
-		C78B2982C1CA6AE4FD50BB275A5EBA6C /* Debug */ = {
+		E966D3739239185C661109C10DBF5B10 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D7C1E372D69DD2335F2DABD93B8326F /* FFUtils.common.debug.xcconfig */;
+			baseConfigurationReference = 67839CF5D5463EE35D1AB8043C1CB4E6 /* FFUtils.common-CustomView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FFUtils.common-CustomView/FFUtils.common-CustomView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FFUtils.common-CustomView/FFUtils.common-CustomView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FFUtils.common-CustomView/FFUtils.common-CustomView.modulemap";
+				PRODUCT_MODULE_NAME = FFUtils;
+				PRODUCT_NAME = FFUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD8CFDECA4E49D05602000B6FED3AFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E939B26637C7128D97D5AFC5783C9F06 /* FFUtils.common.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -825,10 +850,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -842,15 +868,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D44844B819DF9D4FDD91E37C66325EE /* Build configuration list for PBXNativeTarget "FFUtils.common-CustomView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1D46F6D6037493CB7B74401114739BAE /* Debug */,
-				AF784377CC2D79C4627371945D684F9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -860,11 +877,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53DCAAC219DFF0E9506EE911F8A22D0E /* Build configuration list for PBXNativeTarget "FFUtils.common" */ = {
+		BA8776D333E5F543A7B0A9D08EF13514 /* Build configuration list for PBXNativeTarget "FFUtils.common-CustomView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C78B2982C1CA6AE4FD50BB275A5EBA6C /* Debug */,
-				0E3329521DF5286A6ED811BCC4E05638 /* Release */,
+				2BB0E811126708274A94C85FA33D6C35 /* Debug */,
+				E966D3739239185C661109C10DBF5B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73EA61C33D584ED3D159834542F660B /* Build configuration list for PBXNativeTarget "FFUtils.common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53ACF309F6B8EA81173E651808721D7E /* Debug */,
+				FD8CFDECA4E49D05602000B6FED3AFB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -23,3 +23,21 @@ extension UICollectionView {
         register(nib, forCellWithReuseIdentifier: className)
     }
 }
+
+extension UITableView {
+    func dequeueReusableCellIfNeededRegist(reuseIdentifier: String) -> UITableViewCell {
+        if let cell = dequeueReusableCell(withIdentifier: reuseIdentifier) {
+            return cell
+        }
+        registerNibCell(nibName: reuseIdentifier)
+        if let cell = dequeueReusableCell(withIdentifier: reuseIdentifier) {
+            return cell
+        }
+        return UITableViewCell()
+    }
+
+    func registerNibCell(nibName: String) {
+        let nib = UINib(nibName: nibName, bundle: nil)
+        register(nib, forCellReuseIdentifier: nibName)
+    }
+}

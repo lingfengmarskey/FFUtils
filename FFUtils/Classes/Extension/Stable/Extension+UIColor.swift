@@ -24,4 +24,12 @@ public extension UIColor {
             blue: rgb & 0xFF
         )
     }
+
+    class func randomColor() -> UIColor {
+        let red: Int = Int.random(in: 0...255)
+        let green: Int = Int.random(in: 0...255)
+        let blue: Int = Int.random(in: 0...255)
+        let result = UIColor.init(red: red, green: green, blue: blue)
+        return result
+    }
 }

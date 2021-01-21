@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFUtils'
-  s.version          = '0.2.3.beta-6'
+  s.version          = '0.2.3'
   s.summary          = 'Common tools in ios development'
 
 # This description is used to generate tags and improve search results.
@@ -67,5 +67,10 @@ TODO: Add long description of the pod here.
     sp.name = "AppIcon"
   end
   
-  s.default_subspecs = 'Extension', 'KeyBoard'
+  s.subspec 'Table' do |tb|
+    tb.source_files = 'FFUtils/Classes/Table/*.swift'
+    tb.name = "Table"
+  end
+
+  s.default_subspecs = 'Extension', 'KeyBoard', 'Table'
 end
