@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFUtils'
-  s.version          = '0.2.4.alph-4'
+  s.version          = '0.2.4.alph-5'
   s.summary          = 'Common tools in ios development'
 
 # This description is used to generate tags and improve search results.
