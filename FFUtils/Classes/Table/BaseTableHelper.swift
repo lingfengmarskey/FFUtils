@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 // MARK: - Table data
 
-class BaseTableHelper: NSObject {
+public class BaseTableHelper: NSObject {
     internal var table: UITableView
     internal var data: TableDataModel?
 
@@ -39,7 +39,7 @@ class BaseTableHelper: NSObject {
 }
 
 extension BaseTableHelper: UITableViewDataSource {
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let sectionModel = data?.section[safe: indexPath.section],
             let cellModel = sectionModel.cells[safe: indexPath.row] else {
             return UITableViewCell()
@@ -49,18 +49,18 @@ extension BaseTableHelper: UITableViewDataSource {
         return cell
     }
 
-    func numberOfSections(in _: UITableView) -> Int {
+    public func numberOfSections(in _: UITableView) -> Int {
         data?.section.count ?? 0
     }
 
-    func tableView(_: UITableView, numberOfRowsInSection section: Int) -> Int {
+    public func tableView(_: UITableView, numberOfRowsInSection section: Int) -> Int {
         guard let sectionModel = data?.section[safe: section] else { return 0 }
         return sectionModel.cells.count
     }
 }
 
 extension BaseTableHelper: UITableViewDelegate {
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         didTapCell?(indexPath, data)
     }

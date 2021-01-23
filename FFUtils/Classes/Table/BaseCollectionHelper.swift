@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-class CollectionHelper: NSObject {
+public class CollectionHelper: NSObject {
     internal var collection: UICollectionView
     internal var data: TableDataModel?
 
@@ -35,11 +35,11 @@ class CollectionHelper: NSObject {
     }
 }
 extension CollectionHelper: UICollectionViewDataSource {
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         guard let sectionModel = data?.section[safe: section] else { return 0 }
         return sectionModel.cells.count
     }
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let sectionModel = data?.section[safe: indexPath.section],
             let cellModel = sectionModel.cells[safe: indexPath.row] else {
             return UICollectionViewCell()
@@ -48,13 +48,13 @@ extension CollectionHelper: UICollectionViewDataSource {
         cell.bindData(cellModel)
         return cell
     }
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
+    public func numberOfSections(in collectionView: UICollectionView) -> Int {
         return data?.section.count ?? 0
     }
 }
 
 extension CollectionHelper: UICollectionViewDelegate {
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         didTapCell?(indexPath, data)
     }
 }
