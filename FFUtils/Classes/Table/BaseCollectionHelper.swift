@@ -44,6 +44,7 @@ extension CollectionHelper: UICollectionViewDataSource {
             let cellModel = sectionModel.cells[safe: indexPath.row] else {
             return UICollectionViewCell()
         }
+        collection.registerNibCell(nibName: cellModel.reuseIdentifier)
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellModel.reuseIdentifier, for: indexPath)
         cell.bindData(cellModel)
         return cell
