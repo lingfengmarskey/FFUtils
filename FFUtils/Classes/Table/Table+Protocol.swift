@@ -15,7 +15,7 @@ public protocol TableDataModel {
     func getCellModel(indexPath: IndexPath) -> CellModel?
 }
 
-extension TableDataModel {
+public extension TableDataModel {
     func getCellModel(indexPath: IndexPath) -> CellModel? {
         guard let sectionModel = section[safe: indexPath.section],
             let cellModel = sectionModel.cells[safe: indexPath.row]
