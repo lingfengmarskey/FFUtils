@@ -8,10 +8,10 @@
 import Foundation
 import UIKit
 public class CollectionHelper: NSObject {
-    internal var collection: UICollectionView
-    internal var data: TableDataModel?
+    public var collection: UICollectionView
+    public var data: TableDataModel?
 
-    var didTapCell: ((IndexPath, TableDataModel?) -> Void)?
+    public var didTapCell: ((IndexPath, TableDataModel?) -> Void)?
 
     // MARK: - Life method
 
@@ -29,7 +29,7 @@ public class CollectionHelper: NSObject {
         configCommon()
     }
 
-    internal func configData(_ collectionData: TableDataModel) {
+    public func configData(_ collectionData: TableDataModel) {
         data = collectionData
         collection.reloadData()
     }

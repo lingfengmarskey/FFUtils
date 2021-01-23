@@ -11,10 +11,10 @@ import UIKit
 // MARK: - Table data
 
 public class BaseTableHelper: NSObject {
-    internal var table: UITableView
-    internal var data: TableDataModel?
+    public var table: UITableView
+    public var data: TableDataModel?
 
-    var didTapCell: ((IndexPath, TableDataModel?) -> Void)?
+    public var didTapCell: ((IndexPath, TableDataModel?) -> Void)?
 
     // MARK: - Life method
 
@@ -32,7 +32,7 @@ public class BaseTableHelper: NSObject {
         configCommon()
     }
 
-    internal func configData(_ tableData: TableDataModel) {
+    public func configData(_ tableData: TableDataModel) {
         data = tableData
         table.reloadData()
     }

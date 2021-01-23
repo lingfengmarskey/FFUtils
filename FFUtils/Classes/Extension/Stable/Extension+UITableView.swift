@@ -16,15 +16,19 @@ public extension UITableView {
     }
 }
 
-extension UICollectionView {
+public extension UICollectionView {
     func register<T: UICollectionViewCell>(cellType: T.Type, bundle: Bundle? = nil) {
         let className = String(describing: cellType)
         let nib = UINib(nibName: className, bundle: bundle)
         register(nib, forCellWithReuseIdentifier: className)
     }
+    func registerNibCell(nibName: String) {
+        let nib = UINib(nibName: nibName, bundle: nil)
+        register(nib, forCellWithReuseIdentifier: nibName)
+    }
 }
 
-extension UITableView {
+public extension UITableView {
     func dequeueReusableCellIfNeededRegist(reuseIdentifier: String) -> UITableViewCell {
         if let cell = dequeueReusableCell(withIdentifier: reuseIdentifier) {
             return cell
