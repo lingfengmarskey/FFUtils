@@ -15,7 +15,7 @@ public class CollectionHelper: NSObject {
 
     // MARK: - Life method
 
-    init(collection: UICollectionView) {
+    public init(collection: UICollectionView) {
         self.collection = collection
         super.init()
         setup()

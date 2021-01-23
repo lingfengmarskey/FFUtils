@@ -37,13 +37,9 @@ public protocol TableCellDataProtocol {
 }
 
 extension UITableViewCell: TableCellDataProtocol {
-    @objc open func bindData(_: Any) {
-        print("---- bind data on table ----")
-    }
+    @objc open func bindData(_: Any) {}
 }
 
 extension UICollectionViewCell: TableCellDataProtocol {
-    @objc open func bindData(_ data: Any) {
-        print("---- bind data on collection ----")
-    }
+    @objc open func bindData(_ data: Any) {}
 }

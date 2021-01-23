@@ -18,7 +18,7 @@ public class BaseTableHelper: NSObject {
 
     // MARK: - Life method
 
-    init(table: UITableView) {
+    public init(table: UITableView) {
         self.table = table
         super.init()
         setup()
