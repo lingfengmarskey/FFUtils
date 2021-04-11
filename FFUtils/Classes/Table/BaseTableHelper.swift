@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 // MARK: - Table data
 
-public class BaseTableHelper: NSObject {
+open class BaseTableHelper: NSObject {
     public var table: UITableView
     public var data: TableDataModel?
 
