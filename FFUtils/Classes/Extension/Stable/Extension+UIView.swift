@@ -105,4 +105,15 @@ public extension UIView {
             center.x
         }
     }
+
+    var size: CGSize {
+        set {
+            var frame_t = frame
+            frame_t.size = newValue
+            frame = frame_t
+        }
+        get {
+            frame.size
+        }
+    }
 }

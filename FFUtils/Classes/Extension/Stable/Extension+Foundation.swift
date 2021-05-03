@@ -29,3 +29,31 @@ public extension Array {
         return result
     }
 }
+
+public extension CGFloat {
+    static var onePixelWidth: CGFloat {
+        1 / UIScreen.main.scale
+    }
+
+    static var onePixelOffset: CGFloat {
+        1 / UIScreen.main.scale / 2
+    }
+
+    var onePixelValue: CGFloat {
+        return self - .onePixelOffset
+    }
+
+    var intValue: Int {
+        return Int(self)
+    }
+}
+
+public extension Int {
+    var cgfloatValue: CGFloat {
+        return CGFloat(self)
+    }
+
+    var doubleValue: Double {
+        return Double(self)
+    }
+}

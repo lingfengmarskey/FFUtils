@@ -8,11 +8,10 @@
 
 import Foundation
 public extension UIViewController {
-    
     /// Replace childController of Root
-      ///
-      /// - Parameters:
-      ///   - fvc: from Controller
+    ///
+    /// - Parameters:
+    ///   - fvc: from Controller
     ///   - tvc: to Controller
     @available(iOS 10.0, *)
     func replace(from fvc: UIViewController, to tvc: UIViewController) {
@@ -47,20 +46,19 @@ public extension UIViewController {
 public extension UIViewController {
     /// 获取当前显示的控制器 UIWindow (Visible)
     @available(iOSApplicationExtension, unavailable)
-     class func getCurrentController() -> UIViewController? {
+    class func getCurrentController() -> UIViewController? {
         if let keywindow = UIApplication.shared.keyWindow?.rootViewController {
             return getVisibleViewControllerFrom(vc: keywindow)
         }
         return nil
     }
 
-   
     class func getVisibleViewControllerFrom(vc: UIViewController) -> UIViewController {
         if vc.isKind(of: UINavigationController.self) {
             return getVisibleViewControllerFrom(vc: (vc as! UINavigationController).visibleViewController!)
         } else if vc.isKind(of: UITabBarController.self) {
             return getVisibleViewControllerFrom(vc: (vc as! UITabBarController).selectedViewController!)
-        }else {
+        } else {
             if vc.presentedViewController != nil {
                 return getVisibleViewControllerFrom(vc: vc.presentedViewController!)
             } else {

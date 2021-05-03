@@ -62,10 +62,12 @@ public extension String {
 
         return size
     }
-    func toDictionary() -> [String: Any]? {
+
+    /// String to [String: Any]
+    func toDictionary() throws -> [String: Any]? {
         guard let data = self.data(using: String.Encoding.utf8),
-            let dict = try? JSONSerialization.jsonObject(with: data,
-                                                         options: .mutableContainers) as? [String: Any]
+            let dict = try JSONSerialization.jsonObject(with: data,
+                                                        options: .mutableContainers) as? [String: Any]
         else { return nil }
         return dict
     }

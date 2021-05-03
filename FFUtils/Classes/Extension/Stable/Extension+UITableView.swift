@@ -22,6 +22,7 @@ public extension UICollectionView {
         let nib = UINib(nibName: className, bundle: bundle)
         register(nib, forCellWithReuseIdentifier: className)
     }
+
     func registerNibCell(nibName: String) {
         let nib = UINib(nibName: nibName, bundle: nil)
         register(nib, forCellWithReuseIdentifier: nibName)
