@@ -1,16 +1,18 @@
 PODS:
-  - FFUtils (0.2.3):
-    - FFUtils/Extension (= 0.2.3)
-    - FFUtils/KeyBoard (= 0.2.3)
-    - FFUtils/Table (= 0.2.3)
-  - FFUtils/CustomView (0.2.3)
-  - FFUtils/Extension (0.2.3):
-    - FFUtils/Extension/Main (= 0.2.3)
-    - FFUtils/Extension/Stable (= 0.2.3)
-  - FFUtils/Extension/Main (0.2.3)
-  - FFUtils/Extension/Stable (0.2.3)
-  - FFUtils/KeyBoard (0.2.3)
-  - FFUtils/Table (0.2.3):
+  - FFUtils (0.2.4.alph-8):
+    - FFUtils/Collection (= 0.2.4.alph-8)
+    - FFUtils/Extension (= 0.2.4.alph-8)
+    - FFUtils/KeyBoard (= 0.2.4.alph-8)
+    - FFUtils/Table (= 0.2.4.alph-8)
+  - FFUtils/Collection (0.2.4.alph-8)
+  - FFUtils/CustomView (0.2.4.alph-8)
+  - FFUtils/Extension (0.2.4.alph-8):
+    - FFUtils/Extension/Main (= 0.2.4.alph-8)
+    - FFUtils/Extension/Stable (= 0.2.4.alph-8)
+  - FFUtils/Extension/Main (0.2.4.alph-8)
+  - FFUtils/Extension/Stable (0.2.4.alph-8)
+  - FFUtils/KeyBoard (0.2.4.alph-8)
+  - FFUtils/Table (0.2.4.alph-8):
     - FFUtils/Extension
 
 DEPENDENCIES:
@@ -22,8 +24,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFUtils: 192148dfb8cf69ba82dfcf8f4cfec64629ed2ddb
+  FFUtils: 494ead1ce1cd397e6ad29054888145e872afcbc3
 
 PODFILE CHECKSUM: 7253751ff25a3beb308da31fdecf6718a0f6a56a
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1

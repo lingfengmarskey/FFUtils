@@ -41,6 +41,9 @@ class ViewController: UIViewController {
         flip?.playSoundAction = {
             print("play sound")
         }
+        present(UIAlertController.makeInputAlert(title: "title", message: "message", cancelTitle: "cancel", okTitle: "ok", completion: { result in
+            print("result is \(result)")
+        }), animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {

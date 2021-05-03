@@ -1,6 +1,6 @@
 {
   "name": "FFUtils",
-  "version": "0.2.3",
+  "version": "0.2.4.alph-8",
   "summary": "Common tools in ios development",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/lingfengmarskey/FFUtils",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/lingfengmarskey/FFUtils.git",
-    "tag": "0.2.3"
+    "tag": "0.2.4.alph-8"
   },
   "platforms": {
     "ios": "10.0"
@@ -23,7 +23,8 @@
   "default_subspecs": [
     "Extension",
     "KeyBoard",
-    "Table"
+    "Table",
+    "Collection"
   ],
   "subspecs": [
     {
@@ -64,6 +65,10 @@
 
         ]
       }
+    },
+    {
+      "name": "Collection",
+      "source_files": "FFUtils/Classes/Collection/*.swift"
     }
   ],
   "swift_version": "5.0"
