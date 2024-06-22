@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Beader
 //
-//  Created by MarcosMang on R 2/12/31.
+//  Created by MarcosMeng on R 2/12/31.
 //
 
 import UIKit

@@ -2,7 +2,7 @@
 //  ShareViewController.swift
 //  FFUtilsShare
 //
-//  Created by MarcosMang on R 2/08/10.
+//  Created by MarcosMeng on R 2/08/10.
 //  Copyright © Reiwa 2 CocoaPods. All rights reserved.
 //
 

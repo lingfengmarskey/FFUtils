@@ -2,8 +2,8 @@
 //  NotificationMaker.swift
 //  FFUtils
 //
-//  Created by fenrir MarcosMang on 2021/5/3.
-//  Copyright © 2020 MarcosMang. All rights reserved.
+//  Created by MarcosMeng on 2021/5/3.
+//  Copyright © 2024 MarcosMeng. All rights reserved.
 //
 
 import Foundation

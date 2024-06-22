@@ -1,7 +1,7 @@
 {
   "name": "FFUtils",
-  "version": "0.2.4.alph-8",
-  "summary": "Common tools in ios development",
+  "version": "0.2.4.alph-9",
+  "summary": "Common tools in iOS development",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/lingfengmarskey/FFUtils",
   "license": {
@@ -13,53 +13,58 @@
   },
   "source": {
     "git": "https://github.com/lingfengmarskey/FFUtils.git",
-    "tag": "0.2.4.alph-8"
+    "tag": "0.2.4.alph-9"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "FFUtils/Classes/*.swift",
+  "source_files": "Sources/*.swift",
   "swift_versions": "5.0",
   "default_subspecs": [
     "Extension",
     "KeyBoard",
     "Table",
-    "Collection"
+    "Collection",
+    "Common"
   ],
   "subspecs": [
     {
+      "name": "Common",
+      "source_files": "Sources/Common/**/*.swift"
+    },
+    {
       "name": "CustomView",
-      "source_files": "FFUtils/Classes/CustomView/**/*.swift"
+      "source_files": "Sources/CustomView/**/*.swift"
     },
     {
       "name": "Extension",
-      "source_files": "FFUtils/Classes/Extension/**/*.swift",
+      "source_files": "Sources/Extension/**/*.swift",
       "subspecs": [
         {
           "name": "Stable",
-          "source_files": "FFUtils/Classes/Extension/Stable/*.swift"
+          "source_files": "Sources/Extension/Stable/*.swift"
         },
         {
           "name": "Main",
-          "source_files": "FFUtils/Classes/Extension/Main/*.swift"
+          "source_files": "Sources/Extension/Main/*.swift"
         }
       ]
     },
     {
       "name": "KeyBoard",
-      "source_files": "FFUtils/Classes/KeyBoard/**/*.swift"
+      "source_files": "Sources/KeyBoard/**/*.swift"
     },
     {
       "name": "Services",
-      "source_files": "FFUtils/Classes/Services/**/*.swift"
+      "source_files": "Sources/Services/**/*.swift"
     },
     {
       "name": "AppIcon",
-      "source_files": "FFUtils/Classes/AppIcon/*.swift"
+      "source_files": "Sources/AppIcon/*.swift"
     },
     {
       "name": "Table",
-      "source_files": "FFUtils/Classes/Table/*.swift",
+      "source_files": "Sources/Table/*.swift",
       "dependencies": {
         "FFUtils/Extension": [
 
@@ -68,7 +73,7 @@
     },
     {
       "name": "Collection",
-      "source_files": "FFUtils/Classes/Collection/*.swift"
+      "source_files": "Sources/Collection/*.swift"
     }
   ],
   "swift_version": "5.0"

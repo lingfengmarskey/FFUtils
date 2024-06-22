@@ -2,11 +2,15 @@
 //  BaseCollectionHelper.swift
 //  Pods
 //
-//  Created by MarcosMang on R 3/01/21.
+//  Created by MarcosMeng on R 3/01/21.
 //
 
 import Foundation
 import UIKit
+#if canImport(Extension)
+import Extension
+#endif
+
 public class CollectionHelper: NSObject {
     public var collection: UICollectionView
     public var data: TableDataModel?

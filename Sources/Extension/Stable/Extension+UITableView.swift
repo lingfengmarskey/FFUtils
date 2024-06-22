@@ -2,8 +2,8 @@
 //  Extension+UITableView.swift
 //  HabitsKeeper
 //
-//  Created by fenrir Marcos Meng on 2019/12/25.
-//  Copyright © 2019 MarcosMang. All rights reserved.
+//  Created by Marcos Meng on 2019/12/25.
+//  Copyright © 2014 MarcosMeng. All rights reserved.
 //
 
 import Foundation

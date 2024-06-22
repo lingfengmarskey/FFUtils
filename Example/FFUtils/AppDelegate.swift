@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  FFUtils
 //
-//  Created by Marcos Mang on 01/10/2020.
-//  Copyright (c) 2020 Marcos Mang. All rights reserved.
+//  Created by Marcos Meng on 01/10/2020.
+//  Copyright (c) 2024 Marcos Meng. All rights reserved.
 //
 
 import UIKit

@@ -2,8 +2,8 @@
 //  Helper.swift
 //  HabitsKeeper
 //
-//  Created by fenrir Marcos Meng on 2019/12/27.
-//  Copyright © 2019 MarcosMang. All rights reserved.
+//  Created by Marcos Meng on 2019/12/27.
+//  Copyright © 2014 MarcosMeng. All rights reserved.
 //
 
 import Foundation

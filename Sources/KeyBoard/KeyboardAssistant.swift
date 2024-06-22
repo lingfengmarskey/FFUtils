@@ -2,7 +2,7 @@
 //  KeyboardAssistant.swift
 //  FFUtils
 //
-//  Created by MarcosMang on R 2/07/09.
+//  Created by MarcosMeng on R 2/07/09.
 //
 
 import Foundation

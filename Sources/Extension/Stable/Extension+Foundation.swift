@@ -2,11 +2,12 @@
 //  Extension+Foundation.swift
 //  HabitsKeeper
 //
-//  Created by fenrir Marcos Meng on 2020/1/7.
-//  Copyright © 2020 MarcosMang. All rights reserved.
+//  Created by Marcos Meng on 2020/1/7.
+//  Copyright © 2024 MarcosMeng. All rights reserved.
 //
 
 import Foundation
+import UIKit
 
 public extension Collection {
     /// Returns the element at the specified index if it is within bounds, otherwise nil.

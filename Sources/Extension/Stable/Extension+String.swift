@@ -2,11 +2,12 @@
 //  Extension+String.swift
 //  HabitsKeeper
 //
-//  Created by fenrir Marcos Meng on 2020/1/3.
-//  Copyright © 2020 MarcosMang. All rights reserved.
+//  Created by Marcos Meng on 2020/1/3.
+//  Copyright © 2024 MarcosMeng. All rights reserved.
 //
 
 import Foundation
+import UIKit
 public extension String {
     func makeLabelAttributeString() -> NSAttributedString {
         let content = " Sustained : "
